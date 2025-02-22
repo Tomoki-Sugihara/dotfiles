@@ -1,364 +1,349 @@
 {
-    "files.autoSave": "off",
-    "files.associations": {
-      "*.vue": "vue"
+  "files.autoSave": "off",
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.formatOnPaste": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "npm.enableScriptExplorer": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "eslint.packageManager": "yarn",
+  "[scss]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "files.insertFinalNewline": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.formatOnType": false,
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue"
+    ]
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "todohighlight.keywordsPattern": "TODO:|FIXME:|TODO",
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#b52e31"
     },
-    "emmet.triggerExpansionOnTab": true,
-    "editor.formatOnPaste": true,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "npm.enableScriptExplorer": true,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact",
-      "vue-html": "html"
+    {
+      "name": "Auth0 Orange",
+      "value": "#eb5424"
     },
-    "emmet.syntaxProfiles": {
-      "javascript": "jsx"
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
     },
-    "eslint.packageManager": "yarn",
-    "[scss]": {
-      "editor.defaultFormatter": "HookyQR.beautify"
+    {
+      "name": "C# Purple",
+      "value": "#68217A"
     },
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features",
-      "files.insertFinalNewline": true
+    {
+      "name": "Gatsby Purple",
+      "value": "#639"
     },
+    {
+      "name": "Go Cyan",
+      "value": "#5dc9e2"
+    },
+    {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#00b3e6"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "editor.renderControlCharacters": false,
+  "stylelint.autoFixOnSave": true,
+  "editor.minimap.enabled": false,
+  "window.titleBarStyle": "native",
+  "git.autofetch": true,
+  "editor.renderWhitespace": "all",
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.highlightModifiedTabs": false,
+  "cSpell.userWords": [
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "algoliasearch",
+    "Aozora",
+    "appsheet",
+    "argb",
+    "authenticateuser",
+    "axios",
+    "bluebank",
+    "browserslist",
+    "button",
+    "cadetblue",
+    "camelcase",
+    "checkmark",
+    "ciphertextBuffer",
+    "classname",
+    "consola",
+    "convertapi",
+    "cookieparser",
+    "count",
+    "cupertino",
+    "Currentuser",
+    "datepicker",
+    "Datetime",
+    "deletable",
+    "devide",
+    "devtool",
+    "dimgray",
+    "div",
+    "dynave",
+    "enderror",
+    "esnext",
+    "exceljs",
+    "firestore",
+    "flibra",
+    "fontawesome",
+    "fortawesome",
+    "freee",
+    "furigana",
+    "Hankaku",
+    "hasura",
+    "hdwallet",
+    "hoge",
+    "home",
+    "houjinnbangou",
+    "idempotencyKey",
+    "identified",
+    "ikit",
+    "insnapshots",
+    "invaild",
+    "ipad",
+    "ipfs",
+    "iphone",
+    "karte",
+    "kenall",
+    "koaza",
+    "laravel",
+    "lightseagreen",
+    "limegreen",
+    "mastersheet",
+    "materialdesignicons",
+    "millis",
+    "msapplication",
+    "my",
+    "my home work todo",
+    "mypage",
+    "nextjs",
+    "noopener",
+    "nums",
+    "nuxt",
+    "nuxtjs",
+    "occured",
+    "openlogin",
+    "paymentsinfo",
+    "perge",
+    "personalizations",
+    "predeploy",
+    "privatechain",
+    "Rchan",
+    "reducks",
+    "reduxjs",
+    "ress",
+    "rfdc",
+    "ribbo",
+    "riverpod",
+    "royalblue",
+    "samesite",
+    "scheeme",
+    "scrapy",
+    "screenutil",
+    "sendgrid",
+    "servermiddleware",
+    "serviceworker",
+    "shinkin",
+    "signin",
+    "signup",
+    "skyblue",
+    "splited",
+    "springgreen",
+    "stylelint",
+    "sugihara",
+    "swiper",
+    "tailwindcss",
+    "to",
+    "todo",
+    "todoform",
+    "todolist",
+    "todos",
+    "tomoki",
+    "toruslabs",
+    "transferUids",
+    "trustdock",
+    "typegen",
+    "u",
+    "u ikit",
+    "unauthed",
+    "unfetch",
+    "unsigned",
+    "urql",
+    "uuidv",
+    "vercel",
+    "vuetify",
+    "vuex",
+    "work",
+    "wrapin",
+    "xerrors",
+    "youcanbook",
+    "Zenkaku"
+  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.xlsx": "default"
+  },
+  "git.confirmSync": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "tabnine.experimentalAutoImports": true,
+  "githubPullRequests.fileListLayout": "tree",
+  "editor.autoClosingBrackets": "always",
+  "editor.cursorStyle": "line",
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.tabSize": 2,
+  "editor.acceptSuggestionOnEnter": "off",
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ],
+  "vsnotes.defaultNotePath": "/Users/tomoki.sugihara/vsnote",
+  "vsnotes.defaultNoteTitle": "{title}.{ext}",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": false
+  },
+  "git.suggestSmartCommit": false,
+  "editor.fontSize": 11.5,
+  "security.workspace.trust.untrustedFiles": "open",
+  "bracketPairColorizer.depreciation-notice": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit",
-      "source.organizeImports": "never"
+      "source.fixAll": "explicit"
     },
-    "editor.formatOnType": false,
-    "eslint.options": {
-      "extensions": [".js", ".vue"]
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[vue]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "todohighlight.keywordsPattern": "TODO:|FIXME:|TODO",
-    "peacock.favoriteColors": [
-      {
-        "name": "Angular Red",
-        "value": "#b52e31"
-      },
-      {
-        "name": "Auth0 Orange",
-        "value": "#eb5424"
-      },
-      {
-        "name": "Azure Blue",
-        "value": "#007fff"
-      },
-      {
-        "name": "C# Purple",
-        "value": "#68217A"
-      },
-      {
-        "name": "Gatsby Purple",
-        "value": "#639"
-      },
-      {
-        "name": "Go Cyan",
-        "value": "#5dc9e2"
-      },
-      {
-        "name": "Java Blue-Gray",
-        "value": "#557c9b"
-      },
-      {
-        "name": "JavaScript Yellow",
-        "value": "#f9e64f"
-      },
-      {
-        "name": "Mandalorian Blue",
-        "value": "#1857a4"
-      },
-      {
-        "name": "Node Green",
-        "value": "#215732"
-      },
-      {
-        "name": "React Blue",
-        "value": "#00b3e6"
-      },
-      {
-        "name": "Something Different",
-        "value": "#832561"
-      },
-      {
-        "name": "Vue Green",
-        "value": "#42b883"
-      }
+    "editor.rulers": [
+      80
     ],
-    "editor.renderControlCharacters": false,
-    "stylelint.autoFixOnSave": true,
-    "editor.minimap.enabled": false,
-    "window.titleBarStyle": "native",
-    "git.autofetch": true,
-    "editor.renderWhitespace": "all",
-    "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.editor.tabCloseButton": "off",
-    "workbench.editor.highlightModifiedTabs": false,
-    "cSpell.userWords": [
-      "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-      "algoliasearch",
-      "Aozora",
-      "appsheet",
-      "argb",
-      "authenticateuser",
-      "axios",
-      "bluebank",
-      "browserslist",
-      "button",
-      "cadetblue",
-      "camelcase",
-      "checkmark",
-      "ciphertextBuffer",
-      "classname",
-      "consola",
-      "convertapi",
-      "cookieparser",
-      "count",
-      "cupertino",
-      "Currentuser",
-      "datepicker",
-      "Datetime",
-      "deletable",
-      "devide",
-      "devtool",
-      "dimgray",
-      "div",
-      "dynave",
-      "enderror",
-      "esnext",
-      "exceljs",
-      "firestore",
-      "flibra",
-      "fontawesome",
-      "fortawesome",
-      "freee",
-      "furigana",
-      "Hankaku",
-      "hasura",
-      "hdwallet",
-      "hoge",
-      "home",
-      "houjinnbangou",
-      "idempotencyKey",
-      "identified",
-      "ikit",
-      "insnapshots",
-      "invaild",
-      "ipad",
-      "ipfs",
-      "iphone",
-      "karte",
-      "kenall",
-      "koaza",
-      "laravel",
-      "lightseagreen",
-      "limegreen",
-      "mastersheet",
-      "materialdesignicons",
-      "millis",
-      "msapplication",
-      "my",
-      "my home work todo",
-      "mypage",
-      "nextjs",
-      "noopener",
-      "nums",
-      "nuxt",
-      "nuxtjs",
-      "occured",
-      "openlogin",
-      "paymentsinfo",
-      "perge",
-      "personalizations",
-      "predeploy",
-      "privatechain",
-      "Rchan",
-      "reducks",
-      "reduxjs",
-      "ress",
-      "rfdc",
-      "ribbo",
-      "riverpod",
-      "royalblue",
-      "samesite",
-      "scheeme",
-      "scrapy",
-      "screenutil",
-      "sendgrid",
-      "servermiddleware",
-      "serviceworker",
-      "shinkin",
-      "signin",
-      "signup",
-      "skyblue",
-      "splited",
-      "springgreen",
-      "stylelint",
-      "sugihara",
-      "swiper",
-      "tailwindcss",
-      "to",
-      "todo",
-      "todoform",
-      "todolist",
-      "todos",
-      "tomoki",
-      "toruslabs",
-      "transferUids",
-      "trustdock",
-      "typegen",
-      "u",
-      "u ikit",
-      "unauthed",
-      "unfetch",
-      "unsigned",
-      "urql",
-      "uuidv",
-      "vercel",
-      "vuetify",
-      "vuex",
-      "work",
-      "wrapin",
-      "xerrors",
-      "youcanbook",
-      "Zenkaku"
-    ],
-    "workbench.editorAssociations": {
-      "*.ipynb": "jupyter-notebook",
-      "*.xlsx": "default"
-    },
-    "git.confirmSync": false,
-    "liveServer.settings.donotVerifyTags": true,
-    "tabnine.experimentalAutoImports": true,
-    "githubPullRequests.fileListLayout": "tree",
-    "editor.autoClosingBrackets": "always",
-    "editor.cursorStyle": "line",
-    "editor.lineNumbers": "on",
-    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-    "editor.wordWrap": "off",
-    "notebook.cellToolbarLocation": {
-      "default": "right",
-      "jupyter-notebook": "left"
-    },
-    "editor.tabSize": 2,
-    "editor.acceptSuggestionOnEnter": "off",
-    "mssql.connections": [
-      {
-        "server": "{{put-server-name-here}}",
-        "database": "{{put-database-name-here}}",
-        "user": "{{put-username-here}}",
-        "password": "{{put-password-here}}"
-      }
-    ],
-    "vsnotes.defaultNotePath": "/Users/tomoki.sugihara/vsnote",
-    "vsnotes.defaultNoteTitle": "{title}.{ext}",
-    "editor.inlineSuggest.enabled": true,
-    "github.copilot.enable": {
-      "*": true,
-      "plaintext": false,
-      "markdown": true,
-      "scminput": false,
-      "yaml": false
-    },
-    "git.suggestSmartCommit": false,
-    "editor.fontSize": 11.5,
-    "security.workspace.trust.untrustedFiles": "open",
-    "bracketPairColorizer.depreciation-notice": false,
-    "[dart]": {
-      "editor.formatOnSave": true,
-      "editor.formatOnType": true,
-      "editor.codeActionsOnSave": {
-        "source.fixAll": "explicit"
-      },
-      "editor.rulers": [80],
-      "editor.selectionHighlight": false,
-      "editor.suggest.snippetsPreventQuickSuggestions": false,
-      "editor.suggestSelection": "first",
-      "editor.tabCompletion": "onlySnippets",
-      "editor.wordBasedSuggestions": "off",
-      "editor.defaultFormatter": "Dart-Code.dart-code",
-      "editor.formatOnPaste": true
-    },
-    "prettier.singleQuote": true,
-    "githubPullRequests.pullBranch": "never",
-    "editor.wordBasedSuggestions": "matchingDocuments",
-    "todohighlight.isEnable": true,
-    "material-icon-theme.folders.theme": "classic",
-    "[go]": {
-      "editor.insertSpaces": true,
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "golang.go"
-    },
-    "go.lintTool": "golangci-lint",
-    "chatgpt.emailAddress": "sugihara.10969@gmail.com",
-    "errorLens.enabled": false,
-    "go.lintFlags": ["--fast", "--enable=staticcheck", "--enable=wrapcheck"],
-    "[python]": {
-      "editor.formatOnType": true
-    },
-    "terminal.integrated.scrollback": 10000,
-    "workbench.editor.empty.hint": "hidden",
-    "window.zoomLevel": 1,
-    "workbench.editor.tabActionCloseVisibility": false,
-    "github.copilot.editor.enableAutoCompletions": true,
-    "[prisma]": {
-      "editor.defaultFormatter": "Prisma.prisma"
-    },
-    "openapi.securityAuditToken": "CiDtQLHVu8fWZYEmyLFzDzws/pCgEnVe1a5zPhXEoVGkCxIYwFGcWPH5P8i7xJcZZBj9/pSU3d/9LGk+Gnccq6a4KBihy3OI7s3vo8ZAnD4HDdHeMmYAWedVpXROQICWGMgbddTTBNuQstJx3JZ7bmwd/DgcwMU/WkWvmYZtE3hgJZw09UZXPfVbIPgxsbGyXvdPOW00yxlgyi4TJR8VLohHiQb3whEkaxo3iuk9Le8GyP0BmA==",
-    "openapi.platformAuthType": "anond-token",
-    "diffEditor.ignoreTrimWhitespace": true,
-    "security.promptForLocalFileProtocolHandling": false,
-    "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
-    "database-client.autoSync": true,
-    "workbench.colorTheme": "Default Dark Modern",
-    "workbench.activityBar.orientation": "vertical",
-    "cursor.cpp.enablePartialAccepts": true,
-    "codetour.showMarkers": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.colorCustomizations": {
-      "terminal.foreground": "#c6c8d1",
-      "terminal.background": "#161821",
-      "terminal.ansiBlack": "#1e2132",
-      "terminal.ansiBlue": "#84a0c6",
-      "terminal.ansiCyan": "#89b8c2",
-      "terminal.ansiGreen": "#b4be82",
-      "terminal.ansiMagenta": "#a093c7",
-      "terminal.ansiRed": "#e27878",
-      "terminal.ansiWhite": "#c6c8d1",
-      "terminal.ansiYellow": "#e2a478",
-      "terminal.ansiBrightBlack": "#6b7089",
-      "terminal.ansiBrightBlue": "#91acd1",
-      "terminal.ansiBrightCyan": "#95c4ce",
-      "terminal.ansiBrightGreen": "#c0ca8e",
-      "terminal.ansiBrightMagenta": "#ada0d3",
-      "terminal.ansiBrightRed": "#e98989",
-      "terminal.ansiBrightWhite": "#d2d4de",
-      "terminal.ansiBrightYellow": "#e9b189",
-      "terminal.selectionBackground": "#272C42",
-      "terminalCursor.foreground": "#c6c8d1"
-    },
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-  
-    "[terraform]": {
-      "editor.codeActionsOnSave": {
-        "source.formatAll.terraform": "always"
-      }
-    },
-  
-    "diffEditor.renderSideBySide": true
-  }
-  
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnPaste": true
+  },
+  "prettier.singleQuote": true,
+  "githubPullRequests.pullBranch": "never",
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "todohighlight.isEnable": true,
+  "material-icon-theme.folders.theme": "classic",
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.lintTool": "golangci-lint",
+  "chatgpt.emailAddress": "sugihara.10969@gmail.com",
+  "errorLens.enabled": false,
+  "go.lintFlags": [
+    "--fast",
+    "--enable=staticcheck",
+    "--enable=wrapcheck"
+  ],
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "terminal.integrated.scrollback": 10000,
+  "workbench.editor.empty.hint": "hidden",
+  "window.zoomLevel": 1,
+  "workbench.editor.tabActionCloseVisibility": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "openapi.securityAuditToken": "CiDtQLHVu8fWZYEmyLFzDzws/pCgEnVe1a5zPhXEoVGkCxIYwFGcWPH5P8i7xJcZZBj9/pSU3d/9LGk+Gnccq6a4KBihy3OI7s3vo8ZAnD4HDdHeMmYAWedVpXROQICWGMgbddTTBNuQstJx3JZ7bmwd/DgcwMU/WkWvmYZtE3hgJZw09UZXPfVbIPgxsbGyXvdPOW00yxlgyi4TJR8VLohHiQb3whEkaxo3iuk9Le8GyP0BmA==",
+  "openapi.platformAuthType": "anond-token",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "security.promptForLocalFileProtocolHandling": false,
+  "cursor.cpp.disabledLanguages": [
+    "plaintext",
+    "scminput"
+  ],
+  "database-client.autoSync": true,
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.activityBar.orientation": "vertical",
+  "cursor.cpp.enablePartialAccepts": true,
+  "codetour.showMarkers": false,
+  "[terraform]": {
+    "editor.codeActionsOnSave": {
+      "source.formatAll.terraform": "always"
+    }
+  },
+  "diffEditor.renderSideBySide": true
+}
