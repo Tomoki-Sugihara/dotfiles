@@ -106,7 +106,7 @@
   "window.titleBarStyle": "native",
   "git.autofetch": true,
   "editor.renderWhitespace": "all",
-  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.tabCloseButton": "off",
@@ -345,5 +345,7 @@
       "source.formatAll.terraform": "always"
     }
   },
-  "diffEditor.renderSideBySide": true
+  "diffEditor.renderSideBySide": true,
+  "locale": "ja",
+  "redhat.telemetry.enabled": false
 }
