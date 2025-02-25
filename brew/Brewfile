@@ -1,0 +1,48 @@
+# Taps
+tap "homebrew/bundle"
+tap "homebrew/services"
+
+# CLI ツール
+brew "git"                  # バージョン管理システム
+brew "gh"                   # GitHub CLI
+brew "wget"                 # ファイルダウンロードツール
+brew "curl"                 # URLデータ転送ツール
+brew "jq"                   # JSONプロセッサ
+brew "tree"                 # ディレクトリツリー表示
+brew "ripgrep"              # 高速検索ツール
+brew "fd"                   # 高速ファイル検索
+brew "fzf"                  # ファジーファインダー
+brew "bat"                  # catの代替
+brew "eza"                  # lsの代替
+brew "tmux"                 # ターミナルマルチプレクサ
+brew "mas"                    # App Store アプリケーション用のCLIツール
+brew "xcodes"                # Xcodeのバージョン管理ツール
+
+# 開発環境
+# brew "node"                 # Node.js
+# brew "python"               # Python
+# brew "go"                   # Go言語
+# brew "rust"                 # Rust言語
+
+# Caskアプリケーション
+cask "visual-studio-code"   # コードエディタ
+cask "cursor"               # AIコードエディタ
+# cask "iterm2"               # ターミナルエミュレータ
+cask "google-chrome"        # Webブラウザ
+cask "docker"               # コンテナプラットフォーム
+cask "slack"                # コミュニケーションツール
+cask "discord"              # コミュニケーションツール
+cask "notion"               # ノートアプリ
+cask "notion-calendar"      # Notionカレンダー
+cask "spotify"              # 音楽ストリーミング
+cask "raycast"              # 生産性向上ツール
+cask "rectangle"            # ウィンドウマネージャ
+cask "bettertouchtool"      # カスタマイズツール
+cask "postman"              # API開発ツール
+# cask "1password"            # パスワードマネージャ
+
+# App Storeアプリケーション
+mas "Paste", id: 967805235
+mas "Hidden Bar", id: 1452453066
+mas "Yoink", id: 457622435
+mas "LINE", id: 539883307
