@@ -1,5 +1,5 @@
 init:
-	ln -s ~/dotfiles/.zshrc ~/.zshrc
+	ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
 
 vscode:
 	ln -s ~/dotfiles/vscode/setting.json ~/Library/Application\ Support/Cursor/User/settings.json
@@ -9,8 +9,7 @@ export-cursor-extensions:
 
 # Homebrewのセットアップとパッケージのインストール
 brew:
-	chmod +x ./brew/install.sh
-	./brew/install.sh
+	source ./brew/install.sh
 
 # Brewfileからパッケージをインストール
 brew-bundle:
