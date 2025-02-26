@@ -17,13 +17,13 @@ defaults write com.apple.dock autohide -bool true
 # defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 # Finderウィンドウのタイトルにフルパスを表示
-# defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
 # Finderで隠しファイルを表示
-# defaults write com.apple.finder AppleShowAllFiles -bool true
+defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finderでパスバーを表示
-# defaults write com.apple.finder ShowPathbar -bool true
+defaults write com.apple.finder ShowPathbar -bool true
 
 # Finderでステータスバーを表示
 # defaults write com.apple.finder ShowStatusBar -bool true
@@ -32,7 +32,7 @@ defaults write com.apple.dock autohide -bool true
 # defaults write com.apple.finder ShowTabView -bool true
 
 # アプリケーション起動時の確認ダイアログを無効化
-# defaults write com.apple.LaunchServices LSQuarantine -bool false
+defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # ライブ変換を無効化
 defaults write com.apple.inputmethod.Kotoeri JIMPrefLiveConversionKey -bool false
@@ -59,7 +59,7 @@ defaults write -g KeyRepeat -int 2
 defaults write -g com.apple.trackpad.scaling 2
 
 # すべての拡張子を表示
-# defaults write -g AppleShowAllExtensions -bool true
+defaults write -g AppleShowAllExtensions -bool true
 
 echo "設定を適用しています..."
 
