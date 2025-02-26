@@ -84,5 +84,13 @@
     "key": "cmd+f12",
     "command": "-editor.action.goToImplementation",
     "when": "editorHasImplementationProvider && editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+u",
+    "command": "aichat.insertselectionintochat"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-aichat.insertselectionintochat"
   }
 ]
