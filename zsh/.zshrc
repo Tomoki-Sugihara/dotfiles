@@ -9,3 +9,4 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 alias reload="source ~/.zshrc"
+alias cs="cursor"
