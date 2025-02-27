@@ -8,5 +8,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# miseの有効化
+eval "$(mise activate zsh)"
+
 alias reload="source ~/.zshrc"
 alias cs="cursor"

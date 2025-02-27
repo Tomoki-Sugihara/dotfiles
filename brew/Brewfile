@@ -5,6 +5,7 @@ tap "homebrew/services"
 # CLI ツール
 brew "git"                  # バージョン管理システム
 brew "gh"                   # GitHub CLI
+brew "mise"                 # Runtimeマネージャー
 brew "wget"                 # ファイルダウンロードツール
 brew "curl"                 # URLデータ転送ツール
 brew "jq"                   # JSONプロセッサ
