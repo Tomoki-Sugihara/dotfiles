@@ -348,5 +348,13 @@
   },
   "diffEditor.renderSideBySide": true,
   "locale": "ja",
-  "redhat.telemetry.enabled": false
+  "redhat.telemetry.enabled": false,
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ]
 }
