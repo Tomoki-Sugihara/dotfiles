@@ -18,17 +18,11 @@ brew "eza"                  # lsの代替
 brew "tmux"                 # ターミナルマルチプレクサ
 brew "mas"                    # App Store アプリケーション用のCLIツール
 brew "xcodes"                # Xcodeのバージョン管理ツール
-
-# 開発環境
-# brew "node"                 # Node.js
-# brew "python"               # Python
-# brew "go"                   # Go言語
-# brew "rust"                 # Rust言語
+brew "just"                 # シェルスクリプトのラッパー
 
 # Caskアプリケーション
 cask "visual-studio-code"   # コードエディタ
 cask "cursor"               # AIコードエディタ
-# cask "iterm2"               # ターミナルエミュレータ
 cask "google-chrome"        # Webブラウザ
 cask "docker"               # コンテナプラットフォーム
 cask "slack"                # コミュニケーションツール
@@ -40,7 +34,9 @@ cask "raycast"              # 生産性向上ツール
 cask "rectangle"            # ウィンドウマネージャ
 cask "bettertouchtool"      # カスタマイズツール
 cask "postman"              # API開発ツール
-# cask "1password"            # パスワードマネージャ
+cask "obsidian"             # ノートアプリ
+cask "zoom"                 # ビデオ会議ツール
+cask "karabiner-elements"   # キーマッピングツール
 
 # App Storeアプリケーション
 mas "Paste", id: 967805235
