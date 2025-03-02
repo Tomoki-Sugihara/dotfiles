@@ -1,4 +1,7 @@
-.PHONY : init vscode brew brew-bundle brew-dump all
+# ---------------------------
+# セットアップ
+# ---------------------------
+.PHONY : init vscode cursor brew mac mise brew-bundle brew-dump all
 
 init:
 	ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
@@ -6,20 +9,23 @@ init:
 vscode:
 	ln -s ~/dotfiles/vscode/setting.json ~/Library/Application\ Support/Cursor/User/settings.json
 
-export-cursor-extensions:
-	cursor --list-extensions > ./cursor/extensions
+cursor:
+	./cursor/cursor-setup.sh
 
-# Homebrewのセットアップとパッケージのインストール
 brew:
 	./brew/install.sh
 
-# Brewfileからパッケージをインストール
-brew-bundle:
-	brew bundle --file=./brew/Brewfile
+mac:
+	chmod +x ./mac/mac-setup.sh
+	./mac/mac-setup.sh
 
-# 現在インストールされているパッケージをBrewfileにエクスポート
-brew-dump:
-	brew bundle dump --force --file=./brew/Brewfile
+mise:
+	./mise/setup-mise.sh
 
-# すべてのセットアップを実行
-all: init vscode brew
+# ---------------------------
+# その他
+# ---------------------------
+.PHONY: export-cursor-extensions
+
+export-cursor-extensions:
+	cursor --list-extensions > ./cursor/extensions

@@ -41,6 +41,7 @@ cask "karabiner-elements"   # キーマッピングツール
 cask "chatgpt"              # AIコミュニケーションツール
 cask "claude"               # AIコミュニケーションツール
 cask "figma"                # デザインツール
+cask "microsoft-teams"      # チームコミュニケーションツール
 
 # App Storeアプリケーション
 mas "Paste", id: 967805235

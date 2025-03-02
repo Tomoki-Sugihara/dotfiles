@@ -61,6 +61,12 @@ defaults write -g com.apple.trackpad.scaling 2
 # すべての拡張子を表示
 defaults write -g AppleShowAllExtensions -bool true
 
+# ドックには固定化したアプリだけを表示 したがったが実行中アプリだけが表示になる
+# defaults write com.apple.dock static-only -bool FALSE
+
+# 起動音を無効化
+sudo nvram StartupMute=%01
+
 echo "設定を適用しています..."
 
 # 変更を適用するためにアプリケーションを再起動
