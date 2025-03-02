@@ -1,3 +1,5 @@
+.PHONY : init vscode brew brew-bundle brew-dump all
+
 init:
 	ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
 
@@ -9,7 +11,7 @@ export-cursor-extensions:
 
 # Homebrewのセットアップとパッケージのインストール
 brew:
-	source ./brew/install.sh
+	./brew/install.sh
 
 # Brewfileからパッケージをインストール
 brew-bundle:

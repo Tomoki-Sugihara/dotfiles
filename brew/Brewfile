@@ -19,6 +19,7 @@ brew "tmux"                 # ターミナルマルチプレクサ
 brew "mas"                    # App Store アプリケーション用のCLIツール
 brew "xcodes"                # Xcodeのバージョン管理ツール
 brew "just"                 # シェルスクリプトのラッパー
+brew "pandoc"               # ドキュメント変換ツール
 
 # Caskアプリケーション
 cask "visual-studio-code"   # コードエディタ
