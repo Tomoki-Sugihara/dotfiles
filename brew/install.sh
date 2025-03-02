@@ -7,15 +7,12 @@ echo "========================="
 if ! command -v brew &> /dev/null; then
     echo "Homebrewをインストールします..."
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    
+
     # Homebrewのパスを設定（M1 Macの場合）
     if [[ $(uname -m) == 'arm64' ]]; then
         echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
         eval "$(/opt/homebrew/bin/brew shellenv)"
     fi
-else
-    echo "Homebrewはすでにインストールされています。アップデートします..."
-    brew update
 fi
 
 # Brewfile が存在する場合は bundle install を実行
