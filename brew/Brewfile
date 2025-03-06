@@ -24,6 +24,7 @@ brew "pandoc"               # ドキュメント変換ツール
 # Caskアプリケーション
 cask "visual-studio-code"   # コードエディタ
 cask "cursor"               # AIコードエディタ
+cask "windsurf"             # AIコードエディタ
 cask "google-chrome"        # Webブラウザ
 cask "docker"               # コンテナプラットフォーム
 cask "slack"                # コミュニケーションツール
