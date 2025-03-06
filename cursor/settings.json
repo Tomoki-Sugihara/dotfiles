@@ -356,5 +356,6 @@
     "git log",
     "git diff",
     "git show"
-  ]
+  ],
+  "workbench.layoutControl.enabled": false
 }

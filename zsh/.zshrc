@@ -20,3 +20,4 @@ export PATH="/Users/sugiharatomoki/.codeium/windsurf/bin:$PATH"
 # エイリアスの設定
 alias reload="source ~/.zshrc"
 alias cs="cursor"
+alias ws="windsurf"
