@@ -342,9 +342,14 @@
   "cursor.cpp.enablePartialAccepts": true,
   "codetour.showMarkers": false,
   "[terraform]": {
-    "editor.codeActionsOnSave": {
-      "source.formatAll.terraform": "always"
-    }
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
   },
   "diffEditor.renderSideBySide": true,
   "locale": "ja",
