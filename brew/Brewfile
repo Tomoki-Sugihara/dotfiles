@@ -45,6 +45,7 @@ cask "figma"                # デザインツール
 cask "microsoft-teams"      # チームコミュニケーションツール
 cask "superwhisper"         # AIコミュニケーションツール
 cask "google-cloud-sdk"     # Google Cloud SDK
+cask "ngrok"                # ローカル開発環境を公開
 
 # App Storeアプリケーション
 mas "Paste", id: 967805235
