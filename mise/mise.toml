@@ -2,3 +2,11 @@
 node = "22.14.0"
 pnpm = "10.5.2"
 terraform = "1.11.1"
+
+# npmパッケージ
+"npm:dotenv" = "^16.4.7"
+"npm:ts-node" = "^10.9.2"
+"npm:tsc" = "^2.0.4"
+"npm:typescript" = "^5.8.2"
+"npm:prettier" = "latest"
+"npm:eslint" = "latest"
