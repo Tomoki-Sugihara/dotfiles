@@ -72,24 +72,6 @@
         "tile-type" = "file-tile";
     },
         {
-        GUID = 3900167057;
-        "tile-data" =         {
-            book = {length = 556, bytes = 0x626f6f6b 2c020000 00000410 30000000 ... 04000000 00000000 };
-            "bundle-identifier" = "com.exafunction.windsurf";
-            "dock-extra" = 0;
-            "file-data" =             {
-                "_CFURLString" = "file:///Applications/Windsurf.app/";
-                "_CFURLStringType" = 15;
-            };
-            "file-label" = Windsurf;
-            "file-mod-date" = 0;
-            "file-type" = 1;
-            "is-beta" = 0;
-            "parent-mod-date" = 0;
-        };
-        "tile-type" = "file-tile";
-    },
-        {
         GUID = 885081103;
         "tile-data" =         {
             book = {length = 556, bytes = 0x626f6f6b 2c020000 00000410 30000000 ... 04000000 00000000 };
