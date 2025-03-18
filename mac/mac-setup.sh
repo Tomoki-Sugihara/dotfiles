@@ -119,6 +119,15 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # 注意: この設定は複雑なため、必要な場合のみコメントを解除してください
 # defaults write com.apple.sidebarlists favoriteditems -array-add '{ "CustomListItems" = ( { "Alias" = null; "CustomItemProperties" = { "com.apple.LSSharedFileList.TemplateSystemSelector" = 1000; }; "Name" = "アプリケーション"; "URL" = "file:///Applications/"; } ); }'
 
+# Mission Controlのジェスチャーを有効化
+defaults write com.apple.dock showMissionControlGestureEnabled -bool true
+
+# トラックパッドの3本指横スワイプを無効化
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerHorizSwipeGesture -int 0
+
+# トラックパッドの4本指横スワイプを有効化
+defaults write com.apple.AppleMultitouchTrackpad TrackpadFourFingerHorizSwipeGesture -int 2
+
 # すべての拡張子を表示
 defaults write -g AppleShowAllExtensions -bool true
 
