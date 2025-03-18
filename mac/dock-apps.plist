@@ -1,0 +1,146 @@
+(
+        {
+        GUID = 1253105620;
+        "tile-data" =         {
+            book = {length = 556, bytes = 0x626f6f6b 2c020000 00000410 30000000 ... 04000000 00000000 };
+            "bundle-identifier" = "com.spotify.client";
+            "dock-extra" = 0;
+            "file-data" =             {
+                "_CFURLString" = "file:///Applications/Spotify.app/";
+                "_CFURLStringType" = 15;
+            };
+            "file-label" = Spotify;
+            "file-mod-date" = 215469446653568;
+            "file-type" = 41;
+            "is-beta" = 0;
+            "parent-mod-date" = 127147740235111;
+        };
+        "tile-type" = "file-tile";
+    },
+        {
+        GUID = 3900167056;
+        "tile-data" =         {
+            book = {length = 556, bytes = 0x626f6f6b 2c020000 00000410 30000000 ... 04000000 00000000 };
+            "bundle-identifier" = "com.tinyspeck.slackmacgap";
+            "dock-extra" = 0;
+            "file-data" =             {
+                "_CFURLString" = "file:///Applications/Slack.app/";
+                "_CFURLStringType" = 15;
+            };
+            "file-label" = Slack;
+            "file-mod-date" = 3821725963;
+            "file-type" = 41;
+            "is-beta" = 0;
+            "parent-mod-date" = 227688631268021;
+        };
+        "tile-type" = "file-tile";
+    },
+        {
+        GUID = 1897900430;
+        "tile-data" =         {
+            book = {length = 564, bytes = 0x626f6f6b 34020000 00000410 30000000 ... 04000000 00000000 };
+            "bundle-identifier" = "com.google.Chrome";
+            "dock-extra" = 0;
+            "file-data" =             {
+                "_CFURLString" = "file:///Applications/Google%20Chrome.app/";
+                "_CFURLStringType" = 15;
+            };
+            "file-label" = "Google Chrome";
+            "file-mod-date" = 3819139834;
+            "file-type" = 41;
+            "is-beta" = 0;
+            "parent-mod-date" = 224793821277898;
+        };
+        "tile-type" = "file-tile";
+    },
+        {
+        GUID = 4237038568;
+        "tile-data" =         {
+            book = {length = 556, bytes = 0x626f6f6b 2c020000 00000410 30000000 ... 04000000 00000000 };
+            "bundle-identifier" = "com.todesktop.230313mzl4w4u92";
+            "dock-extra" = 0;
+            "file-data" =             {
+                "_CFURLString" = "file:///Applications/Cursor.app/";
+                "_CFURLStringType" = 15;
+            };
+            "file-label" = Cursor;
+            "file-mod-date" = 2398345200;
+            "file-type" = 41;
+            "is-beta" = 0;
+            "parent-mod-date" = 136356149967421;
+        };
+        "tile-type" = "file-tile";
+    },
+        {
+        GUID = 3900167057;
+        "tile-data" =         {
+            book = {length = 556, bytes = 0x626f6f6b 2c020000 00000410 30000000 ... 04000000 00000000 };
+            "bundle-identifier" = "com.exafunction.windsurf";
+            "dock-extra" = 0;
+            "file-data" =             {
+                "_CFURLString" = "file:///Applications/Windsurf.app/";
+                "_CFURLStringType" = 15;
+            };
+            "file-label" = Windsurf;
+            "file-mod-date" = 0;
+            "file-type" = 1;
+            "is-beta" = 0;
+            "parent-mod-date" = 0;
+        };
+        "tile-type" = "file-tile";
+    },
+        {
+        GUID = 885081103;
+        "tile-data" =         {
+            book = {length = 556, bytes = 0x626f6f6b 2c020000 00000410 30000000 ... 04000000 00000000 };
+            "bundle-identifier" = "md.obsidian";
+            "dock-extra" = 0;
+            "file-data" =             {
+                "_CFURLString" = "file:///Applications/Obsidian.app/";
+                "_CFURLStringType" = 15;
+            };
+            "file-label" = Obsidian;
+            "file-mod-date" = 3822348753;
+            "file-type" = 41;
+            "is-beta" = 0;
+            "parent-mod-date" = 77429199594528;
+        };
+        "tile-type" = "file-tile";
+    },
+        {
+        GUID = 504081331;
+        "tile-data" =         {
+            book = {length = 564, bytes = 0x626f6f6b 34020000 00000410 30000000 ... 04000000 00000000 };
+            "bundle-identifier" = "com.cron.electron";
+            "dock-extra" = 0;
+            "file-data" =             {
+                "_CFURLString" = "file:///Applications/Notion%20Calendar.app/";
+                "_CFURLStringType" = 15;
+            };
+            "file-label" = "Notion Calendar";
+            "file-mod-date" = 3824644600;
+            "file-type" = 41;
+            "is-beta" = 0;
+            "parent-mod-date" = 132877227927538;
+        };
+        "tile-type" = "file-tile";
+    },
+        {
+        GUID = 1253105622;
+        "tile-data" =         {
+            book = {length = 588, bytes = 0x626f6f6b 4c020000 00000410 30000000 ... 04000000 00000000 };
+            "bundle-identifier" = "com.apple.systempreferences";
+            "dock-extra" = 1;
+            "file-data" =             {
+                "_CFURLString" = "file:///System/Applications/System%20Settings.app/";
+                "_CFURLStringType" = 15;
+            };
+            "file-label" = "\\U30b7\\U30b9\\U30c6\\U30e0\\U8a2d\\U5b9a";
+            "file-mod-date" = 3824100362;
+            "file-type" = 41;
+            "is-beta" = 0;
+            "parent-mod-date" = 3824100362;
+        };
+        "tile-type" = "file-tile";
+    }
+)
