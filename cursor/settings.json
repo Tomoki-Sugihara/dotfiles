@@ -362,5 +362,6 @@
     "git diff",
     "git show"
   ],
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "windsurf.autoExecutionPolicy": "off"
 }
