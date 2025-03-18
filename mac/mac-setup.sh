@@ -58,11 +58,69 @@ defaults write -g KeyRepeat -int 2
 # トラックパッド速度を設定
 defaults write -g com.apple.trackpad.scaling 2
 
+# スクリーンショットの保存先を設定
+# 注意: 現在は未設定ですが、必要に応じてコメントを解除してください
+# defaults write com.apple.screencapture location ~/Pictures/Screenshots
+# mkdir -p ~/Pictures/Screenshots
+
+# スクリーンショットの影を無効化
+# 注意: 現在は未設定ですが、必要に応じてコメントを解除してください
+# defaults write com.apple.screencapture disable-shadow -bool true
+
+# スクリーンショットのフォーマットを設定（png, jpg, pdf, tiff）
+# 注意: 現在は未設定ですが、必要に応じてコメントを解除してください
+# defaults write com.apple.screencapture type -string "png"
+
+# Dockのサイズを設定（現在の値：39）
+defaults write com.apple.dock tilesize -int 39
+
+# Dockの拡大機能を有効化
+defaults write com.apple.dock magnification -bool true
+# Dockの拡大サイズを設定（現在の値：56）
+defaults write com.apple.dock largesize -int 56
+
+# Dockの位置を設定（left, bottom, right）
+defaults write com.apple.dock orientation -string "bottom"
+
+# ミッションコントロールの設定
+defaults write com.apple.dock expose-animation-duration -float 0.1
+
+# Spotlightのショートカットを無効化
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 64 "{enabled = 0; value = {parameters = (65535, 49, 1048576); type = standard; }; }"
+
+# システム環境設定 > セキュリティとプライバシー > 一般 > スリープとスクリーンセーバの解除にパスワードを要求（秒数指定）
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+
+# スマート引用符を無効化
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+
+# スマートダッシュを無効化
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# スペルチェックを無効化
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+# トラックパッドのタップでクリックを有効化
+# 注意: 現在は未設定になっていますが、システム設定で既に有効化されている可能性があります
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+
+# ナチュラルスクロール方向を設定（現在は未設定）
+# 注意：現在未設定になっていますが、システムの設定によって既に設定されている可能性があります
+# true: 自然なスクロール方向（デフォルト）、false: 従来のスクロール方向
+# defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+# 入力ソースを切り替えるショートカットを設定
+# 注意: 現在は未設定または別の方法で設定されています
+# defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 60 "{enabled = 1; value = {parameters = (32, 49, 1048576); type = standard; }; }"
+# defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 61 "{enabled = 1; value = {parameters = (32, 49, 1572864); type = standard; }; }"
+
+# Finderのサイドバーのデフォルトアイテムを設定
+# 注意: この設定は複雑なため、必要な場合のみコメントを解除してください
+# defaults write com.apple.sidebarlists favoriteditems -array-add '{ "CustomListItems" = ( { "Alias" = null; "CustomItemProperties" = { "com.apple.LSSharedFileList.TemplateSystemSelector" = 1000; }; "Name" = "アプリケーション"; "URL" = "file:///Applications/"; } ); }'
+
 # すべての拡張子を表示
 defaults write -g AppleShowAllExtensions -bool true
-
-# ドックには固定化したアプリだけを表示 したがったが実行中アプリだけが表示になる
-# defaults write com.apple.dock static-only -bool FALSE
 
 # 起動音を無効化
 sudo nvram StartupMute=%01
