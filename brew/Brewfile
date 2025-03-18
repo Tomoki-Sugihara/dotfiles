@@ -46,6 +46,7 @@ cask "microsoft-teams"      # チームコミュニケーションツール
 cask "superwhisper"         # AIコミュニケーションツール
 cask "google-cloud-sdk"     # Google Cloud SDK
 cask "ngrok"                # ローカル開発環境を公開
+cask "google-japanese-ime"  # 日本語入力ツール
 
 # App Storeアプリケーション
 mas "Paste", id: 967805235
