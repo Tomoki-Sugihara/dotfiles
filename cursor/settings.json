@@ -363,5 +363,6 @@
     "git show"
   ],
   "workbench.layoutControl.enabled": false,
-  "windsurf.autoExecutionPolicy": "off"
+  "windsurf.autoExecutionPolicy": "off",
+  "cursor.general.gitGraphIndexing": "enabled"
 }
