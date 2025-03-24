@@ -10,14 +10,8 @@
  */
 
 import { dirname, join } from "https://deno.land/std@0.224.0/path/mod.ts";
-import { copy, ensureDir } from "https://deno.land/std@0.224.0/fs/mod.ts";
+import { ensureDir } from "https://deno.land/std@0.224.0/fs/mod.ts";
 import select from "npm:@inquirer/select";
-
-// 型定義
-interface Choice {
-  name: string;
-  value: string;
-}
 
 // 現在のスクリプトの場所を取得
 const scriptDir = dirname(new URL(import.meta.url).pathname);
@@ -30,36 +24,20 @@ export async function main() {
     // テンプレートフォルダ一覧を取得
     const templates: string[] = [];
     for await (const dirEntry of Deno.readDir(TEMPLATES_DIR)) {
-      if (dirEntry.isDirectory && dirEntry.name !== ".obsidian") {
-        templates.push(dirEntry.name);
-      }
-    }
-
-    if (templates.length === 0) {
-      console.log("テンプレートが見つかりません。");
-      Deno.exit(1);
+      templates.push(dirEntry.name);
     }
 
     // 選択プロンプトを使用してテンプレートを選択
-    const choices: Choice[] = templates.map((name) => ({ name, value: name }));
+    const choices = templates.map((name) => ({ name, value: name }));
     const templateName = await select<string>({
       message: "コピーしたいテンプレートを選択してください:",
       choices,
     });
 
-    const templatePath = join(TEMPLATES_DIR, templateName);
     const currentDir = Deno.cwd();
 
     // テンプレートをコピー
     console.log(`テンプレート '${templateName}' をコピーしています...`);
-
-    // テンプレートディレクトリの中身を現在のディレクトリにコピー
-    for await (const entry of Deno.readDir(templatePath)) {
-      const src = join(templatePath, entry.name);
-      const dest = join(currentDir, entry.name);
-
-      await copy(src, dest, { overwrite: true });
-    }
 
     // .obsidianディレクトリを作成
     const obsidianDir = join(currentDir, ".obsidian");
