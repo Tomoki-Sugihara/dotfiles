@@ -70,6 +70,7 @@ export async function main() {
     await Deno.writeTextFile(workspacePath, "");
 
     console.log("コピー完了しました。");
+    Deno.exit(0);
   } catch (error) {
     console.error(
       "エラーが発生しました:",
