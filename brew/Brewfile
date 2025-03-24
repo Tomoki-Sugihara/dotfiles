@@ -29,7 +29,7 @@ cask "google-chrome"        # Webブラウザ
 cask "docker"               # コンテナプラットフォーム
 cask "slack"                # コミュニケーションツール
 cask "discord"              # コミュニケーションツール
-cask "notion"               # ノートアプリ
+# cask "notion"               # ノートアプリ
 cask "notion-calendar"      # Notionカレンダー
 cask "spotify"              # 音楽ストリーミング
 cask "raycast"              # 生産性向上ツール
@@ -42,7 +42,6 @@ cask "karabiner-elements"   # キーマッピングツール
 cask "chatgpt"              # AIコミュニケーションツール
 cask "claude"               # AIコミュニケーションツール
 cask "figma"                # デザインツール
-cask "microsoft-teams"      # チームコミュニケーションツール
 cask "superwhisper"         # AIコミュニケーションツール
 cask "google-cloud-sdk"     # Google Cloud SDK
 cask "ngrok"                # ローカル開発環境を公開
