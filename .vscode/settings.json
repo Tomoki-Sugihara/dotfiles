@@ -6,5 +6,6 @@
     "xcodes",
     "Yoink"
   ],
-  "deno.enable": true
+  "deno.enable": true,
+  "deno.path": "/Users/sugiharatomoki/.local/share/mise/installs/deno/2.2.4/bin/deno",
 }

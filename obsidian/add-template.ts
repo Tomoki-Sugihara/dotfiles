@@ -2,15 +2,22 @@
 
 /**
  * Obsidianのテンプレートをコピーするスクリプト (Deno版)
- * 
+ *
  * 1. templatesファオルダ内のフォルダを取得
  * 2. 対話的にフォルダを選択
  * 3. 呼び出し元のフォルダにコピー
  * 4. .obsidian/workspace.jsonはファイルだけ作成して中身は空
  */
 
-import { basename, dirname, join } from "https://deno.land/std/path/mod.ts";
-import { ensureDir, copy } from "https://deno.land/std/fs/mod.ts";
+import { dirname, join } from "https://deno.land/std@0.224.0/path/mod.ts";
+import { copy, ensureDir } from "https://deno.land/std@0.224.0/fs/mod.ts";
+import select from "npm:@inquirer/select";
+
+// 型定義
+interface Choice {
+  name: string;
+  value: string;
+}
 
 // 現在のスクリプトの場所を取得
 const scriptDir = dirname(new URL(import.meta.url).pathname);
@@ -33,36 +40,24 @@ export async function main() {
       Deno.exit(1);
     }
 
-    // テンプレート一覧を表示
-    console.log("利用可能なテンプレート:");
-    templates.forEach((template, index) => {
-      console.log(`${index + 1}) ${template}`);
+    // 選択プロンプトを使用してテンプレートを選択
+    const choices: Choice[] = templates.map((name) => ({ name, value: name }));
+    const templateName = await select<string>({
+      message: "コピーしたいテンプレートを選択してください:",
+      choices,
     });
 
-    // 対話的にテンプレートを選択
-    const buf = new Uint8Array(1024);
-    console.log("コピーしたいテンプレート番号を入力してください:");
-    const n = await Deno.stdin.read(buf);
-    const input = new TextDecoder().decode(buf.subarray(0, n!)).trim();
-    const choice = parseInt(input, 10);
-
-    if (isNaN(choice) || choice < 1 || choice > templates.length) {
-      console.log("無効な選択です。終了します。");
-      Deno.exit(1);
-    }
-
-    const templateName = templates[choice - 1];
     const templatePath = join(TEMPLATES_DIR, templateName);
     const currentDir = Deno.cwd();
 
     // テンプレートをコピー
     console.log(`テンプレート '${templateName}' をコピーしています...`);
-    
+
     // テンプレートディレクトリの中身を現在のディレクトリにコピー
     for await (const entry of Deno.readDir(templatePath)) {
       const src = join(templatePath, entry.name);
       const dest = join(currentDir, entry.name);
-      
+
       await copy(src, dest, { overwrite: true });
     }
 
@@ -76,7 +71,10 @@ export async function main() {
 
     console.log("コピー完了しました。");
   } catch (error) {
-    console.error("エラーが発生しました:", error instanceof Error ? error.message : String(error));
+    console.error(
+      "エラーが発生しました:",
+      error instanceof Error ? error.message : String(error),
+    );
     Deno.exit(1);
   }
 }

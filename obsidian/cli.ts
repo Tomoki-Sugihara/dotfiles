@@ -1,11 +1,7 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write --allow-run --allow-env
 // Obsidian CLI - 引数に応じて実行ファイルを出し分け
 
-import { dirname, join } from "https://deno.land/std/path/mod.ts";
 import { main as addTemplate } from "./add-template.ts";
-
-// 現在のスクリプトのディレクトリを取得
-const scriptDir = dirname(new URL(import.meta.url).pathname);
 
 /**
  * ヘルプオプションかどうかをチェック
