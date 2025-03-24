@@ -21,3 +21,8 @@ export PATH="/Users/sugiharatomoki/.codeium/windsurf/bin:$PATH"
 alias reload="source ~/.zshrc"
 alias cs="cursor"
 alias ws="windsurf"
+
+# Obsidian コマンド
+obs() {
+  deno run --allow-read --allow-write --allow-run --allow-env ~/dotfiles/obsidian/cli.ts "$@"
+}

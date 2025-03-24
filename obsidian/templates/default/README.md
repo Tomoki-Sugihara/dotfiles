@@ -1,0 +1,1 @@
+# Obsidianテンプレート Default
