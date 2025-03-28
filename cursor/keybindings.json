@@ -92,5 +92,11 @@
   {
     "key": "shift+cmd+l",
     "command": "-aichat.insertselectionintochat"
+  },
+  // cursor chat上で新規チャット開くのを無効化　なぜかctr+nでもトリガーされてしまうため
+  {
+    "key": "cmd+n",
+    "command": "-composer.createNew",
+    "when": "composerFocused || focusedView =~ /^workbench.panel.aichat.view/"
   }
 ]
