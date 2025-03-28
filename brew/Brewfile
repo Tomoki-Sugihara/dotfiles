@@ -37,7 +37,7 @@ cask "rectangle"            # ウィンドウマネージャ
 cask "bettertouchtool"      # カスタマイズツール
 cask "postman"              # API開発ツール
 cask "obsidian"             # ノートアプリ
-cask "zoom"                 # ビデオ会議ツール
+# cask "zoom"                 # ビデオ会議ツール
 cask "karabiner-elements"   # キーマッピングツール
 cask "chatgpt"              # AIコミュニケーションツール
 cask "claude"               # AIコミュニケーションツール

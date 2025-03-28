@@ -1,10 +1,7 @@
 # ---------------------------
 # セットアップ
 # ---------------------------
-.PHONY : init vscode cursor windsurf brew mac mise brew-bundle brew-dump all
-
-init:
-	ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
+.PHONY : vscode cursor windsurf brew mac mise brew-bundle brew-dump all
 
 vscode:
 	ln -s ~/dotfiles/vscode/setting.json ~/Library/Application\ Support/Cursor/User/settings.json
