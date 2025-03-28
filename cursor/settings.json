@@ -364,5 +364,14 @@
   ],
   "workbench.layoutControl.enabled": false,
   "windsurf.autoExecutionPolicy": "off",
-  "cursor.general.gitGraphIndexing": "enabled"
+  "cursor.general.gitGraphIndexing": "enabled",
+  "deno.path": "/Users/sugiharatomoki/.local/share/mise/installs/deno/2.2.4/bin/deno",
+  "terminal.integrated.suggest.enabled": true, // https://x.com/code/status/1905380606864662913?s=46&t=7P2Kl8l7dkJkVLb3DKtXLg
+  "github.copilot.chat.localeOverride": "ja",
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": "/Users/sugiharatomoki/dotfiles/cursor/.copilot-commit-message-instructions.md"
+      // "file": ".copilot-commit-message-instructions.md"
+    }
+  ]
 }
