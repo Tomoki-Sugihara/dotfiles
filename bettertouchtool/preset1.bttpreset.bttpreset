@@ -52,7 +52,7 @@
     "BTTTpFourFingerSwipeSensitivity" : 0.22461245240283614,
     "BSTMoveTreshold" : 2,
     "BTTHideFomControlStripWhenOpen" : false,
-    "BTTNumberOfStarts" : 32531,
+    "BTTNumberOfStarts" : 32582,
     "BTTForceNormalClickPressure3F" : 123.58046265838206,
     "showSiriRemoteTab" : true,
     "SIRIScrollSpeed" : 1,
@@ -179,16 +179,8 @@
     "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612,
     "BTTNotchBarNotchMenubarModeHideRightScrollable" : true
   },
-  "BTTPresetUUID" : "1894A407-07EE-43F7-A441-6040EB40B83D",
+  "BTTPresetUUID" : "7D1FB629-E594-40DA-8B25-9A897DF55DEE",
   "BTTPresetContent" : [
-    {
-      "BTTAppBundleIdentifier" : "BT.L",
-      "BTTAppName" : "Recently Used",
-      "BTTAppAutoInvertIcon" : 1,
-      "BTTTriggers" : [
-
-      ]
-    },
     {
       "BTTAppBundleIdentifier" : "com.tinyspeck.slackmacgap",
       "BTTAppName" : "Slack",
@@ -223,123 +215,61 @@
       ]
     },
     {
-      "BTTAppBundleIdentifier" : "com.microsoft.VSCode",
-      "BTTAppName" : "Visual Studio Code",
+      "BTTAppBundleIdentifier" : "com.google.Chrome",
+      "BTTAppName" : "Google Chrome",
       "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Google Chrome",
       "BTTTriggers" : [
         {
           "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0572529,
-          "BTTTriggerType" : 156,
-          "BTTTriggerTypeDescription" : "3本指で下にクリックスワイプ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "3C443317-7B05-472D-BFB9-EF8931B73B12",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "58,56,125",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 4,
-          "BTTGestureNotes" : "3本指で下にクリックスワイプ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.057373,
-          "BTTTriggerType" : 110,
-          "BTTTriggerTypeDescription" : "4本指でタップ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "BC726613-2514-4407-BEC2-087ABB4A7435",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "58,55,1",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 5,
-          "BTTGestureNotes" : "4本指でタップ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0567842,
-          "BTTTriggerType" : 101,
-          "BTTTriggerTypeDescription" : "3本指で右にスワイプ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "BFCC14D1-EADE-4116-B0A6-AAF9B43DCAEE",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "58,55,124",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 1,
-          "BTTGestureNotes" : "3本指で右にスワイプ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0570221,
+          "BTTLastUpdatedAt" : 1737732985.055444,
           "BTTTriggerType" : 121,
           "BTTTriggerTypeDescription" : "4本指でクリック",
           "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "84A072D8-FE99-48CC-9C9B-CF41146FD9FC",
+          "BTTUUID" : "65CB1BD3-D6C1-4BA8-8F49-FE88F8097098",
           "BTTAutoAdaptActionToKeyboardLayout" : true,
           "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "55,3",
+          "BTTShortcutToSend" : "55,13",
           "BTTEnabled" : 1,
           "BTTEnabled2" : 1,
-          "BTTOrder" : 6,
+          "BTTOrder" : 2,
           "BTTGestureNotes" : "4本指でクリック"
         },
         {
           "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0566649,
-          "BTTTriggerType" : 100,
-          "BTTTriggerTypeDescription" : "3本指で左にスワイプ",
+          "BTTLastUpdatedAt" : 1737732985.0564041,
+          "BTTTriggerType" : 156,
+          "BTTTriggerTypeDescription" : "3本指で下にクリックスワイプ",
           "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "F6DF3669-B6B0-451A-88B6-99ED499CD68B",
+          "BTTUUID" : "26D4E878-9C0B-4280-A31F-1106698A7637",
           "BTTAutoAdaptActionToKeyboardLayout" : true,
           "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "58,55,123",
+          "BTTShortcutToSend" : "56,55,13",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTGestureNotes" : "3本指で下にクリックスワイプ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.0557752,
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap左（1本指修正）",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "618AA7FC-C98E-4BDA-9837-7B6E8D4062AA",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "55,17",
           "BTTEnabled" : 1,
           "BTTEnabled2" : 1,
           "BTTOrder" : 0,
-          "BTTGestureNotes" : "3本指で左にスワイプ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.057137,
-          "BTTTriggerType" : 154,
-          "BTTTriggerTypeDescription" : "3本指で右にクリックスワイプ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "E6C3A117-1AAB-4318-B9ED-B0BC68642E3D",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "51",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 2,
-          "BTTGestureNotes" : "3本指で右にクリックスワイプ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0569019,
-          "BTTTriggerType" : 153,
-          "BTTTriggerTypeDescription" : "3本指で左にクリックスワイプ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "E80BE7A0-4B9E-4162-807C-3A75E4CA8B26",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "55,44",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 3,
-          "BTTGestureNotes" : "3本指で左にクリックスワイプ"
+          "BTTGestureNotes" : "TipTap左（1本指修正）",
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0,
+            "BTTGestureForceFeedbackPattern" : 1
+          }
         }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.apple.finder",
-      "BTTAppName" : "Finder",
-      "BTTAppAutoInvertIcon" : 1,
-      "BTTTriggers" : [
-
       ]
     },
     {
@@ -350,6 +280,442 @@
         "BTTDisableGlobalTriggers" : false
       },
       "BTTTriggers" : [
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.0613101,
+          "BTTTriggerType" : 624,
+          "BTTTriggerTypeDescription" : "トリガーを選択してください ",
+          "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+          "BTTUUID" : "926A548A-A91C-46CD-A183-16416DF909F1",
+          "BTTPredefinedActionType" : 19,
+          "BTTPredefinedActionName" : "ウィンドウを左に最大化",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTGestureNotes" : "トリガーを選択してください ",
+          "BTTKeySequence" : {
+            "BTTPauseBetween" : 0.29999999999999999,
+            "BTTKeyCount" : 4,
+            "BTTKeySequenceDownKeys" : [
+              {
+                "BTTKEYCode" : 58,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 647269760
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 647269760
+              }
+            ],
+            "BTTKeySequenceMixedKeys" : [
+              {
+                "BTTKEYCode" : 58,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 647269760
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 647269760
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 647269760
+              },
+              {
+                "BTTKEYCode" : 58,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 647269760
+              }
+            ],
+            "BTTKeySequenceUpKeys" : [
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 647269760
+              },
+              {
+                "BTTKEYCode" : 58,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 647269760
+              }
+            ]
+          }
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1742973221.334512,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTUUID" : "8E99F3A8-F65C-463C-B4FE-29BFC07E2E32",
+          "BTTPredefinedActionType" : 26,
+          "BTTPredefinedActionName" : "前へ",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTKeyboardShortcutKeyboardType" : 2658,
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "깓",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTShortcutKeyCode" : 43,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 4,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1743147665.6394491,
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3本指で左にスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "046FA7B5-F8F7-42FD-A603-C7C74E767460",
+          "BTTPredefinedActionType" : 204,
+          "BTTPredefinedActionName" : "カーソル下のウィンドウをアクティブ or 前面にする",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTAdditionalActions" : [
+            {
+              "BTTActionCategory" : 0,
+              "BTTLastUpdatedAt" : 1737732985.0602479,
+              "BTTTriggerType" : 100,
+              "BTTTriggerTypeDescription" : "3本指で左にスワイプ",
+              "BTTTriggerParentUUID" : "046FA7B5-F8F7-42FD-A603-C7C74E767460",
+              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+              "BTTUUID" : "330134F7-3399-4D78-870F-780B4289B375",
+              "BTTAutoAdaptActionToKeyboardLayout" : true,
+              "BTTGenericActionConfig" : "autoAdapt",
+              "BTTShortcutToSend" : "59,56,48",
+              "BTTEnabled" : 1,
+              "BTTEnabled2" : 1,
+              "BTTOrder" : 0,
+              "BTTAdditionalActions" : [
+                {
+                  "BTTActionCategory" : 0,
+                  "BTTLastUpdatedAt" : 1737732985.0603719,
+                  "BTTTriggerParentUUID" : "330134F7-3399-4D78-870F-780B4289B375",
+                  "BTTIsPureAction" : true,
+                  "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+                  "BTTUUID" : "891AA6F1-8BC9-4281-8B5B-4106B56040C4",
+                  "BTTPredefinedActionType" : 204,
+                  "BTTPredefinedActionName" : "カーソル下のウィンドウをアクティブ or 前面にする",
+                  "BTTEnabled" : 1,
+                  "BTTEnabled2" : 1,
+                  "BTTOrder" : 7
+                }
+              ],
+              "BTTGestureNotes" : "3本指で左にスワイプ"
+            }
+          ],
+          "BTTGestureNotes" : "3本指で左にスワイプ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1743147665.639384,
+          "BTTTriggerType" : 104,
+          "BTTTriggerTypeDescription" : "3本指でタップ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "6B7AE487-C4F3-48B7-B466-D878FBE84BD7",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "中クリック (At Current Mouse Position)",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 0,
+          "BTTGestureNotes" : "3本指でタップ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1743147673.693361,
+          "BTTTriggerType" : 158,
+          "BTTTriggerTypeDescriptionReadOnly" : "右下隅をクリック",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "141252F1-37E9-4C42-9E3A-43493916830D",
+          "BTTPredefinedActionType" : 366,
+          "BTTPredefinedActionName" : "空のプレースホルダ",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 7,
+          "BTTAdditionalActions" : [
+            {
+              "BTTActionCategory" : 0,
+              "BTTLastUpdatedAt" : 1743147700.948951,
+              "BTTTriggerParentUUID" : "141252F1-37E9-4C42-9E3A-43493916830D",
+              "BTTIsPureAction" : true,
+              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+              "BTTUUID" : "10AC2831-B06D-4419-9B8D-1C034C240974",
+              "BTTPredefinedActionType" : 128,
+              "BTTPredefinedActionName" : "特定のアプリにショートカットを送信する",
+              "BTTLayoutIndependentActionChar" : "\/Applications\/Google Chrome.app",
+              "BTTShortcutApp" : "\/Applications\/Google Chrome.app",
+              "BTTShortcutAppUnderCursor" : "com.google.Chrome",
+              "BTTShortcutToSend" : "55,45",
+              "BTTEnabled" : 1,
+              "BTTEnabled2" : 1,
+              "BTTOrder" : 1
+            }
+          ]
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1743147665.6394019,
+          "BTTTriggerType" : 153,
+          "BTTTriggerTypeDescription" : "3本指で左にクリックスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "026B7A04-5B51-4D79-9433-F6CB430F8DA0",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "58,55,8",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 6,
+          "BTTGestureNotes" : "3本指で左にクリックスワイプ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1742973221.3345199,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTUUID" : "0954F7C0-FC3F-49C3-8384-67AC8950F853",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "ウィンドウを最大化",
+          "BTTAdditionalConfiguration" : "524320",
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "舁",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTShortcutKeyCode" : 1,
+          "BTTShortcutModifierKeys" : 524288,
+          "BTTOrder" : 1,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1742973282.027257,
+          "BTTTriggerType" : 624,
+          "BTTTriggerTypeDescription" : "トリガーを選択してください ",
+          "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+          "BTTUUID" : "81C925C2-A88C-4FD5-9BD1-74E2207DA772",
+          "BTTPredefinedActionType" : 128,
+          "BTTPredefinedActionName" : "特定のアプリにショートカットを送信する",
+          "BTTLayoutIndependentActionChar" : "\/Applications\/Spotify.app",
+          "BTTShortcutApp" : "\/Applications\/Spotify.app",
+          "BTTShortcutAppUnderCursor" : "com.spotify.client",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 0,
+          "BTTGestureNotes" : "トリガーを選択してください ",
+          "BTTKeySequence" : {
+            "BTTPauseBetween" : 0.29999999999999999,
+            "BTTKeyCount" : 4,
+            "BTTKeySequenceDownKeys" : [
+              {
+                "BTTKEYCode" : 61,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 764665920
+              },
+              {
+                "BTTKEYCode" : 61,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 764665920
+              }
+            ],
+            "BTTKeySequenceMixedKeys" : [
+              {
+                "BTTKEYCode" : 61,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 764665920
+              },
+              {
+                "BTTKEYCode" : 61,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 764665920
+              },
+              {
+                "BTTKEYCode" : 61,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 764665920
+              },
+              {
+                "BTTKEYCode" : 61,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 764665920
+              }
+            ],
+            "BTTKeySequenceUpKeys" : [
+              {
+                "BTTKEYCode" : 61,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 764665920
+              },
+              {
+                "BTTKEYCode" : 61,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 764665920
+              }
+            ]
+          }
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1743147665.6394649,
+          "BTTTriggerType" : 155,
+          "BTTTriggerTypeDescription" : "3本指で上にクリックスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "13F1A097-690B-4931-901E-C412E583A00C",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "58,6",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 5,
+          "BTTGestureNotes" : "3本指で上にクリックスワイプ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1743147665.639498,
+          "BTTTriggerType" : 154,
+          "BTTTriggerTypeDescription" : "3本指で右にクリックスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "5550755E-492E-49F5-98FE-D12C7542C1D0",
+          "BTTPredefinedActionType" : 58,
+          "BTTPredefinedActionName" : "選択したテキストをGoogleで検索",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 4,
+          "BTTGestureNotes" : "3本指で右にクリックスワイプ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1742973221.3345032,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTUUID" : "71B431D1-21DA-4A26-A52F-F12610543246",
+          "BTTPredefinedActionType" : 20,
+          "BTTPredefinedActionName" : "ウィンドウを右に最大化",
+          "BTTAdditionalConfiguration" : "524320",
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "응",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTShortcutKeyCode" : 2,
+          "BTTShortcutModifierKeys" : 524288,
+          "BTTOrder" : 2,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1742973221.3345799,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTUUID" : "DF74752D-10FE-4FA6-9DC0-BB9B8BCF5371",
+          "BTTPredefinedActionType" : 48,
+          "BTTPredefinedActionName" : "ウィンドウを次のモニターに最大化",
+          "BTTAdditionalConfiguration" : "524320",
+          "BTTKeyboardShortcutKeyboardType" : 0,
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "앑",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTShortcutKeyCode" : 0,
+          "BTTShortcutModifierKeys" : 524288,
+          "BTTOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.0621271,
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTUUID" : "4F197736-935E-461B-8CD3-AAFE71A2556F",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1743147665.6394382,
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3本指で右にスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "507C74D2-436A-4E0C-BF0B-0655BFACF825",
+          "BTTPredefinedActionType" : 204,
+          "BTTPredefinedActionName" : "カーソル下のウィンドウをアクティブ or 前面にする",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 3,
+          "BTTAdditionalActions" : [
+            {
+              "BTTActionCategory" : 0,
+              "BTTLastUpdatedAt" : 1737732985.058867,
+              "BTTTriggerType" : 101,
+              "BTTTriggerTypeDescription" : "3本指で右にスワイプ",
+              "BTTTriggerParentUUID" : "507C74D2-436A-4E0C-BF0B-0655BFACF825",
+              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+              "BTTUUID" : "81E524CA-A264-4AC3-AD9C-35E16C5416F3",
+              "BTTAutoAdaptActionToKeyboardLayout" : true,
+              "BTTGenericActionConfig" : "autoAdapt",
+              "BTTShortcutToSend" : "59,48",
+              "BTTEnabled" : 1,
+              "BTTEnabled2" : 1,
+              "BTTOrder" : 0,
+              "BTTAdditionalActions" : [
+                {
+                  "BTTActionCategory" : 0,
+                  "BTTLastUpdatedAt" : 1737732985.0589781,
+                  "BTTTriggerParentUUID" : "81E524CA-A264-4AC3-AD9C-35E16C5416F3",
+                  "BTTIsPureAction" : true,
+                  "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+                  "BTTUUID" : "5F5726C8-3E6A-4292-833E-B49CAD0396EB",
+                  "BTTPredefinedActionType" : 204,
+                  "BTTPredefinedActionName" : "カーソル下のウィンドウをアクティブ or 前面にする",
+                  "BTTEnabled" : 1,
+                  "BTTEnabled2" : 1,
+                  "BTTOrder" : 8
+                }
+              ],
+              "BTTGestureNotes" : "3本指で右にスワイプ"
+            }
+          ],
+          "BTTGestureNotes" : "3本指で右にスワイプ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1742973221.334486,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTUUID" : "D74C1A3F-C297-44FB-9AEC-AF235BF1FA88",
+          "BTTPredefinedActionType" : 27,
+          "BTTPredefinedActionName" : "次へ",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTKeyboardShortcutKeyboardType" : 2658,
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTShortcutKeyCode" : 47,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 3,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        },
         {
           "BTTActionCategory" : 0,
           "BTTLastUpdatedAt" : 1737732985.0592752,
@@ -429,54 +795,7 @@
         },
         {
           "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1738031115.9817901,
-          "BTTTriggerType" : 100,
-          "BTTTriggerTypeDescription" : "3本指で左にスワイプ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "046FA7B5-F8F7-42FD-A603-C7C74E767460",
-          "BTTPredefinedActionType" : 204,
-          "BTTPredefinedActionName" : "カーソル下のウィンドウをアクティブ or 前面にする",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 1,
-          "BTTAdditionalActions" : [
-            {
-              "BTTActionCategory" : 0,
-              "BTTLastUpdatedAt" : 1737732985.0602479,
-              "BTTTriggerType" : 100,
-              "BTTTriggerTypeDescription" : "3本指で左にスワイプ",
-              "BTTTriggerParentUUID" : "046FA7B5-F8F7-42FD-A603-C7C74E767460",
-              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-              "BTTUUID" : "330134F7-3399-4D78-870F-780B4289B375",
-              "BTTAutoAdaptActionToKeyboardLayout" : true,
-              "BTTGenericActionConfig" : "autoAdapt",
-              "BTTShortcutToSend" : "59,56,48",
-              "BTTEnabled" : 1,
-              "BTTEnabled2" : 1,
-              "BTTOrder" : 0,
-              "BTTAdditionalActions" : [
-                {
-                  "BTTActionCategory" : 0,
-                  "BTTLastUpdatedAt" : 1737732985.0603719,
-                  "BTTTriggerParentUUID" : "330134F7-3399-4D78-870F-780B4289B375",
-                  "BTTIsPureAction" : true,
-                  "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-                  "BTTUUID" : "891AA6F1-8BC9-4281-8B5B-4106B56040C4",
-                  "BTTPredefinedActionType" : 204,
-                  "BTTPredefinedActionName" : "カーソル下のウィンドウをアクティブ or 前面にする",
-                  "BTTEnabled" : 1,
-                  "BTTEnabled2" : 1,
-                  "BTTOrder" : 7
-                }
-              ],
-              "BTTGestureNotes" : "3本指で左にスワイプ"
-            }
-          ],
-          "BTTGestureNotes" : "3本指で左にスワイプ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1738031115.9817681,
+          "BTTLastUpdatedAt" : 1743147665.639457,
           "BTTTriggerType" : 112,
           "BTTTriggerTypeDescription" : "3本指でクリック",
           "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
@@ -490,418 +809,49 @@
         },
         {
           "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0621271,
-          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
-          "BTTUUID" : "4F197736-935E-461B-8CD3-AAFE71A2556F",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 0
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737779882.683764,
+          "BTTLastUpdatedAt" : 1742973227.587676,
           "BTTTriggerType" : 0,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTUUID" : "0954F7C0-FC3F-49C3-8384-67AC8950F853",
-          "BTTPredefinedActionType" : 21,
-          "BTTPredefinedActionName" : "ウィンドウを最大化",
-          "BTTAdditionalConfiguration" : "524320",
+          "BTTUUID" : "7ECDA7FD-1289-49CB-BDB0-C5EAC9FB68FD",
+          "BTTPredefinedActionType" : 366,
+          "BTTPredefinedActionName" : "空のプレースホルダ",
+          "BTTAdditionalConfiguration" : "524352",
           "BTTKeyboardShortcutKeyboardType" : 0,
           "BTTTriggerOnDown" : 1,
-          "BTTLayoutIndependentChar" : "舁",
+          "BTTLayoutIndependentChar" : "\/",
           "BTTEnabled" : 1,
           "BTTEnabled2" : 1,
-          "BTTShortcutKeyCode" : 1,
+          "BTTShortcutKeyCode" : 44,
           "BTTShortcutModifierKeys" : 524288,
-          "BTTOrder" : 1,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.061883,
-          "BTTTriggerType" : 624,
-          "BTTTriggerTypeDescription" : "トリガーを選択してください ",
-          "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
-          "BTTUUID" : "81C925C2-A88C-4FD5-9BD1-74E2207DA772",
-          "BTTPredefinedActionType" : 128,
-          "BTTPredefinedActionName" : "特定のアプリにショートカットを送信する",
-          "BTTLayoutIndependentActionChar" : "file:\/\/\/Applications\/Spotify.app",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTShortcutApp" : "file:\/\/\/Applications\/Spotify.app",
-          "BTTShortcutAppUnderCursor" : "autoAdapt",
-          "BTTShortcutToSend" : "49",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 0,
-          "BTTGestureNotes" : "トリガーを選択してください ",
-          "BTTKeySequence" : {
-            "BTTPauseBetween" : 0.29999999999999999,
-            "BTTKeyCount" : 8,
-            "BTTKeySequenceDownKeys" : [
-              {
-                "BTTKEYCode" : 63,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCharacter" : " ",
-                "BTTKEYCode" : 179,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCode" : 63,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCharacter" : " ",
-                "BTTKEYCode" : 179,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              }
-            ],
-            "BTTKeySequenceMixedKeys" : [
-              {
-                "BTTKEYCode" : 63,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCode" : 63,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCharacter" : " ",
-                "BTTKEYCode" : 179,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCharacter" : " ",
-                "BTTKEYCode" : 179,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCode" : 63,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCode" : 63,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCharacter" : " ",
-                "BTTKEYCode" : 179,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCharacter" : " ",
-                "BTTKEYCode" : 179,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              }
-            ],
-            "BTTKeySequenceUpKeys" : [
-              {
-                "BTTKEYCode" : 63,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCharacter" : " ",
-                "BTTKEYCode" : 179,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCode" : 63,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              },
-              {
-                "BTTKEYCharacter" : " ",
-                "BTTKEYCode" : 179,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 689864576
-              }
-            ]
-          }
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1738031115.981735,
-          "BTTTriggerType" : 101,
-          "BTTTriggerTypeDescription" : "3本指で右にスワイプ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "507C74D2-436A-4E0C-BF0B-0655BFACF825",
-          "BTTPredefinedActionType" : 204,
-          "BTTPredefinedActionName" : "カーソル下のウィンドウをアクティブ or 前面にする",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 3,
+          "BTTOrder" : 5,
+          "BTTAutoAdaptToKeyboardLayout" : 0,
           "BTTAdditionalActions" : [
             {
               "BTTActionCategory" : 0,
-              "BTTLastUpdatedAt" : 1737732985.058867,
-              "BTTTriggerType" : 101,
-              "BTTTriggerTypeDescription" : "3本指で右にスワイプ",
-              "BTTTriggerParentUUID" : "507C74D2-436A-4E0C-BF0B-0655BFACF825",
-              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-              "BTTUUID" : "81E524CA-A264-4AC3-AD9C-35E16C5416F3",
-              "BTTAutoAdaptActionToKeyboardLayout" : true,
-              "BTTGenericActionConfig" : "autoAdapt",
-              "BTTShortcutToSend" : "59,48",
+              "BTTLastUpdatedAt" : 1742973238.4560289,
+              "BTTTriggerParentUUID" : "7ECDA7FD-1289-49CB-BDB0-C5EAC9FB68FD",
+              "BTTIsPureAction" : true,
+              "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+              "BTTUUID" : "38699605-076B-4630-8BAF-1A22AC82497C",
+              "BTTPredefinedActionType" : 128,
+              "BTTPredefinedActionName" : "特定のアプリにショートカットを送信する",
+              "BTTKeyboardShortcutKeyboardType" : 0,
               "BTTEnabled" : 1,
               "BTTEnabled2" : 1,
-              "BTTOrder" : 0,
-              "BTTAdditionalActions" : [
-                {
-                  "BTTActionCategory" : 0,
-                  "BTTLastUpdatedAt" : 1737732985.0589781,
-                  "BTTTriggerParentUUID" : "81E524CA-A264-4AC3-AD9C-35E16C5416F3",
-                  "BTTIsPureAction" : true,
-                  "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-                  "BTTUUID" : "5F5726C8-3E6A-4292-833E-B49CAD0396EB",
-                  "BTTPredefinedActionType" : 204,
-                  "BTTPredefinedActionName" : "カーソル下のウィンドウをアクティブ or 前面にする",
-                  "BTTEnabled" : 1,
-                  "BTTEnabled2" : 1,
-                  "BTTOrder" : 8
-                }
-              ],
-              "BTTGestureNotes" : "3本指で右にスワイプ"
+              "BTTShortcutKeyCode" : -1,
+              "BTTOrder" : 1,
+              "BTTAutoAdaptToKeyboardLayout" : 0
             }
-          ],
-          "BTTGestureNotes" : "3本指で右にスワイプ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1738031115.9816899,
-          "BTTTriggerType" : 104,
-          "BTTTriggerTypeDescription" : "3本指でタップ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "6B7AE487-C4F3-48B7-B466-D878FBE84BD7",
-          "BTTPredefinedActionType" : 1,
-          "BTTPredefinedActionName" : "中クリック (At Current Mouse Position)",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 0,
-          "BTTGestureNotes" : "3本指でタップ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1738031115.9817781,
-          "BTTTriggerType" : 155,
-          "BTTTriggerTypeDescription" : "3本指で上にクリックスワイプ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "13F1A097-690B-4931-901E-C412E583A00C",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "58,6",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 5,
-          "BTTGestureNotes" : "3本指で上にクリックスワイプ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1738031115.981756,
-          "BTTTriggerType" : 153,
-          "BTTTriggerTypeDescription" : "3本指で左にクリックスワイプ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "026B7A04-5B51-4D79-9433-F6CB430F8DA0",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "58,55,8",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 6,
-          "BTTGestureNotes" : "3本指で左にクリックスワイプ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737779882.683794,
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTUUID" : "8E99F3A8-F65C-463C-B4FE-29BFC07E2E32",
-          "BTTPredefinedActionType" : 26,
-          "BTTPredefinedActionName" : "前へ",
-          "BTTAdditionalConfiguration" : "8388608",
-          "BTTKeyboardShortcutKeyboardType" : 2658,
-          "BTTTriggerOnDown" : 1,
-          "BTTLayoutIndependentChar" : "깓",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTShortcutKeyCode" : 43,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 4,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737779882.6837859,
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTUUID" : "D74C1A3F-C297-44FB-9AEC-AF235BF1FA88",
-          "BTTPredefinedActionType" : 27,
-          "BTTPredefinedActionName" : "次へ",
-          "BTTAdditionalConfiguration" : "8388608",
-          "BTTKeyboardShortcutKeyboardType" : 2658,
-          "BTTTriggerOnDown" : 1,
-          "BTTLayoutIndependentChar" : "",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTShortcutKeyCode" : 47,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 3,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1738031115.9817472,
-          "BTTTriggerType" : 154,
-          "BTTTriggerTypeDescription" : "3本指で右にクリックスワイプ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "5550755E-492E-49F5-98FE-D12C7542C1D0",
-          "BTTPredefinedActionType" : 58,
-          "BTTPredefinedActionName" : "選択したテキストをGoogleで検索",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 4,
-          "BTTGestureNotes" : "3本指で右にクリックスワイプ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0613101,
-          "BTTTriggerType" : 624,
-          "BTTTriggerTypeDescription" : "トリガーを選択してください ",
-          "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
-          "BTTUUID" : "926A548A-A91C-46CD-A183-16416DF909F1",
-          "BTTPredefinedActionType" : 19,
-          "BTTPredefinedActionName" : "ウィンドウを左に最大化",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 1,
-          "BTTGestureNotes" : "トリガーを選択してください ",
-          "BTTKeySequence" : {
-            "BTTPauseBetween" : 0.29999999999999999,
-            "BTTKeyCount" : 4,
-            "BTTKeySequenceDownKeys" : [
-              {
-                "BTTKEYCode" : 58,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 647269760
-              },
-              {
-                "BTTKEYCode" : 59,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 647269760
-              }
-            ],
-            "BTTKeySequenceMixedKeys" : [
-              {
-                "BTTKEYCode" : 58,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 647269760
-              },
-              {
-                "BTTKEYCode" : 59,
-                "BTTKEYDown" : 1,
-                "BTTKEYOrderRelevant" : 1,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 647269760
-              },
-              {
-                "BTTKEYCode" : 59,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 647269760
-              },
-              {
-                "BTTKEYCode" : 58,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 647269760
-              }
-            ],
-            "BTTKeySequenceUpKeys" : [
-              {
-                "BTTKEYCode" : 59,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 647269760
-              },
-              {
-                "BTTKEYCode" : 58,
-                "BTTKEYRequired" : 1,
-                "BTTKEYTime" : 647269760
-              }
-            ]
-          }
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737779882.683778,
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTUUID" : "71B431D1-21DA-4A26-A52F-F12610543246",
-          "BTTPredefinedActionType" : 20,
-          "BTTPredefinedActionName" : "ウィンドウを右に最大化",
-          "BTTAdditionalConfiguration" : "524320",
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTTriggerOnDown" : 1,
-          "BTTLayoutIndependentChar" : "응",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTShortcutKeyCode" : 2,
-          "BTTShortcutModifierKeys" : 524288,
-          "BTTOrder" : 2,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737779882.6838441,
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTUUID" : "DF74752D-10FE-4FA6-9DC0-BB9B8BCF5371",
-          "BTTPredefinedActionType" : 48,
-          "BTTPredefinedActionName" : "ウィンドウを次のモニターに最大化",
-          "BTTAdditionalConfiguration" : "524320",
-          "BTTKeyboardShortcutKeyboardType" : 0,
-          "BTTTriggerOnDown" : 1,
-          "BTTLayoutIndependentChar" : "앑",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTShortcutKeyCode" : 0,
-          "BTTShortcutModifierKeys" : 524288,
-          "BTTOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
+          ]
         }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.L",
+      "BTTAppName" : "Recently Used",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTTriggers" : [
+
       ]
     },
     {
@@ -913,18 +863,18 @@
       "BTTTriggers" : [
         {
           "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0579669,
-          "BTTTriggerType" : 121,
-          "BTTTriggerTypeDescription" : "4本指でクリック",
+          "BTTLastUpdatedAt" : 1737732985.0584731,
+          "BTTTriggerType" : 110,
+          "BTTTriggerTypeDescription" : "4本指でタップ",
           "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "B2ED9681-B696-4821-A38A-B4CE327B6664",
+          "BTTUUID" : "781A89FC-9A4E-4984-B9A1-528504EF71ED",
           "BTTAutoAdaptActionToKeyboardLayout" : true,
           "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "55,3",
+          "BTTShortcutToSend" : "58,55,1",
           "BTTEnabled" : 1,
           "BTTEnabled2" : 1,
-          "BTTOrder" : 6,
-          "BTTGestureNotes" : "4本指でクリック"
+          "BTTOrder" : 5,
+          "BTTGestureNotes" : "4本指でタップ"
         },
         {
           "BTTActionCategory" : 0,
@@ -943,18 +893,33 @@
         },
         {
           "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.057719,
-          "BTTTriggerType" : 154,
-          "BTTTriggerTypeDescription" : "3本指で右にクリックスワイプ",
+          "BTTLastUpdatedAt" : 1737732985.0579669,
+          "BTTTriggerType" : 121,
+          "BTTTriggerTypeDescription" : "4本指でクリック",
           "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "1537A308-767C-4F73-8625-C3DBF0C336A1",
+          "BTTUUID" : "B2ED9681-B696-4821-A38A-B4CE327B6664",
           "BTTAutoAdaptActionToKeyboardLayout" : true,
           "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "51",
+          "BTTShortcutToSend" : "55,3",
           "BTTEnabled" : 1,
           "BTTEnabled2" : 1,
-          "BTTOrder" : 2,
-          "BTTGestureNotes" : "3本指で右にクリックスワイプ"
+          "BTTOrder" : 6,
+          "BTTGestureNotes" : "4本指でクリック"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.0582209,
+          "BTTTriggerType" : 153,
+          "BTTTriggerTypeDescription" : "3本指で左にクリックスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "E0FBB328-EFEB-4300-BEE5-08364EE109D6",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "55,44",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 3,
+          "BTTGestureNotes" : "3本指で左にクリックスワイプ"
         },
         {
           "BTTActionCategory" : 0,
@@ -973,6 +938,21 @@
         },
         {
           "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.057719,
+          "BTTTriggerType" : 154,
+          "BTTTriggerTypeDescription" : "3本指で右にクリックスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "1537A308-767C-4F73-8625-C3DBF0C336A1",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "51",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 2,
+          "BTTGestureNotes" : "3本指で右にクリックスワイプ"
+        },
+        {
+          "BTTActionCategory" : 0,
           "BTTLastUpdatedAt" : 1737732985.057842,
           "BTTTriggerType" : 100,
           "BTTTriggerTypeDescription" : "3本指で左にスワイプ",
@@ -985,94 +965,6 @@
           "BTTEnabled2" : 1,
           "BTTOrder" : 0,
           "BTTGestureNotes" : "3本指で左にスワイプ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0584731,
-          "BTTTriggerType" : 110,
-          "BTTTriggerTypeDescription" : "4本指でタップ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "781A89FC-9A4E-4984-B9A1-528504EF71ED",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "58,55,1",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 5,
-          "BTTGestureNotes" : "4本指でタップ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0582209,
-          "BTTTriggerType" : 153,
-          "BTTTriggerTypeDescription" : "3本指で左にクリックスワイプ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "E0FBB328-EFEB-4300-BEE5-08364EE109D6",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "55,44",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 3,
-          "BTTGestureNotes" : "3本指で左にクリックスワイプ"
-        }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.google.Chrome",
-      "BTTAppName" : "Google Chrome",
-      "BTTAppAutoInvertIcon" : 1,
-      "BTTAppProcessMatchMode" : 2,
-      "BTTAppProcessName" : "Google Chrome",
-      "BTTTriggers" : [
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.055444,
-          "BTTTriggerType" : 121,
-          "BTTTriggerTypeDescription" : "4本指でクリック",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "65CB1BD3-D6C1-4BA8-8F49-FE88F8097098",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "55,13",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 2,
-          "BTTGestureNotes" : "4本指でクリック"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0564041,
-          "BTTTriggerType" : 156,
-          "BTTTriggerTypeDescription" : "3本指で下にクリックスワイプ",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "26D4E878-9C0B-4280-A31F-1106698A7637",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "56,55,13",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 1,
-          "BTTGestureNotes" : "3本指で下にクリックスワイプ"
-        },
-        {
-          "BTTActionCategory" : 0,
-          "BTTLastUpdatedAt" : 1737732985.0557752,
-          "BTTTriggerType" : 113,
-          "BTTTriggerTypeDescription" : "TipTap左（1本指修正）",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "618AA7FC-C98E-4BDA-9837-7B6E8D4062AA",
-          "BTTAutoAdaptActionToKeyboardLayout" : true,
-          "BTTGenericActionConfig" : "autoAdapt",
-          "BTTShortcutToSend" : "55,17",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 0,
-          "BTTGestureNotes" : "TipTap左（1本指修正）",
-          "BTTTriggerConfig" : {
-            "BTTNoTouchTimeout" : 0,
-            "BTTGestureForceFeedbackPattern" : 1
-          }
         }
       ]
     },
@@ -1084,6 +976,126 @@
       "BTTAppProcessName" : "Spotify",
       "BTTTriggers" : [
 
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTTriggers" : [
+
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.microsoft.VSCode",
+      "BTTAppName" : "Visual Studio Code",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTTriggers" : [
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.057137,
+          "BTTTriggerType" : 154,
+          "BTTTriggerTypeDescription" : "3本指で右にクリックスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "E6C3A117-1AAB-4318-B9ED-B0BC68642E3D",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "51",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 2,
+          "BTTGestureNotes" : "3本指で右にクリックスワイプ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.0566649,
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3本指で左にスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "F6DF3669-B6B0-451A-88B6-99ED499CD68B",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 0,
+          "BTTGestureNotes" : "3本指で左にスワイプ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.0572529,
+          "BTTTriggerType" : 156,
+          "BTTTriggerTypeDescription" : "3本指で下にクリックスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "3C443317-7B05-472D-BFB9-EF8931B73B12",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "58,56,125",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 4,
+          "BTTGestureNotes" : "3本指で下にクリックスワイプ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.0570221,
+          "BTTTriggerType" : 121,
+          "BTTTriggerTypeDescription" : "4本指でクリック",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "84A072D8-FE99-48CC-9C9B-CF41146FD9FC",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "55,3",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 6,
+          "BTTGestureNotes" : "4本指でクリック"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.0567842,
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3本指で右にスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "BFCC14D1-EADE-4116-B0A6-AAF9B43DCAEE",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTGestureNotes" : "3本指で右にスワイプ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.057373,
+          "BTTTriggerType" : 110,
+          "BTTTriggerTypeDescription" : "4本指でタップ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "BC726613-2514-4407-BEC2-087ABB4A7435",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "58,55,1",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 5,
+          "BTTGestureNotes" : "4本指でタップ"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737732985.0569019,
+          "BTTTriggerType" : 153,
+          "BTTTriggerTypeDescription" : "3本指で左にクリックスワイプ",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "E80BE7A0-4B9E-4162-807C-3A75E4CA8B26",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "55,44",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 3,
+          "BTTGestureNotes" : "3本指で左にクリックスワイプ"
+        }
       ]
     }
   ],
