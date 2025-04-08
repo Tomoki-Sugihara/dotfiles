@@ -3,11 +3,13 @@
 # ---------------------------
 .PHONY : vscode cursor windsurf brew mac mise brew-bundle brew-dump all
 
-vscode:
-	ln -s ~/dotfiles/vscode/setting.json ~/Library/Application\ Support/Cursor/User/settings.json
-
 cursor:
+	chmod +x ./cursor/cursor-setup.sh
 	./cursor/cursor-setup.sh
+
+vscode:
+	chmod +x ./cursor/vscode-setup.sh
+	./cursor/vscode-setup.sh
 
 windsurf:
 	./windsurf/windsurf-setup.sh
