@@ -17,6 +17,11 @@ export MISE_CONFIG_FILE=~/dotfiles/mise/mise.toml
 # Added by Windsurf
 export PATH="/Users/sugiharatomoki/.codeium/windsurf/bin:$PATH"
 
+# 環境変数読み込み
+if [ -f ~/dotfiles/zsh/.env ]; then
+  export $(cat ~/dotfiles/zsh/.env | xargs)
+fi
+
 # エイリアスの設定
 alias reload="source ~/.zshrc"
 alias cs="cursor"
