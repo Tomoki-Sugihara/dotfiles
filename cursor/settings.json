@@ -377,5 +377,9 @@
   "chat.agent.enabled": true,
   "github.copilot.chat.agent.thinkingTool": true,
   "github.copilot.chat.codesearch.enabled": true,
-  "makefile.configureOnOpen": false
+  "makefile.configureOnOpen": false,
+  "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off", // ダブルクリックでfile拡大
+  "cursor.composer.shouldAllowCustomModes": true,
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "update.releaseTrack": "prerelease"
 }
