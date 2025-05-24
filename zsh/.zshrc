@@ -31,3 +31,6 @@ alias ws="windsurf"
 obs() {
   deno run --allow-read --allow-write --allow-run --allow-env ~/dotfiles/obsidian/cli.ts "$@"
 }
+
+# 不明
+. "$HOME/.local/bin/env"
