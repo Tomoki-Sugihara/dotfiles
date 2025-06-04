@@ -17,6 +17,9 @@ windsurf:
 brew:
 	./brew/install.sh
 
+brew-no-upgrade:
+	./brew/install.sh --no-upgrade
+
 mac:
 	chmod +x ./mac/mac-setup.sh
 	./mac/mac-setup.sh

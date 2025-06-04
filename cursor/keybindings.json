@@ -113,5 +113,13 @@
     "key": "tab",
     "command": "-editor.action.acceptCursorTabSuggestion",
     "when": "cpp.shouldAcceptTab"
-  }
+},
+{
+    "key": "shift+enter",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+        "text": "\\\r\n"
+    },
+    "when": "terminalFocus"
+}
 ]

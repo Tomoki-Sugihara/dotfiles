@@ -381,5 +381,6 @@
   "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off", // ダブルクリックでfile拡大
   "cursor.composer.shouldAllowCustomModes": true,
   "cursor.composer.shouldChimeAfterChatFinishes": true,
-  "update.releaseTrack": "prerelease"
+  "update.releaseTrack": "prerelease",
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
