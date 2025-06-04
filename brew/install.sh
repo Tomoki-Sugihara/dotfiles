@@ -2,6 +2,26 @@
 
 echo "🍺 Homebrew setup script"
 echo "========================="
+echo "Usage: ./install.sh [--no-upgrade | -n]"
+echo "  --no-upgrade, -n: Skip upgrading packages when running brew bundle."
+echo ""
+
+# デフォルトのオプションを設定
+BREW_BUNDLE_OPTIONS=""
+
+# 引数をパースしてオプションを設定
+while (( "$#" )); do
+  case "$1" in
+    --no-upgrade|-n)
+      BREW_BUNDLE_OPTIONS="--no-upgrade"
+      shift
+      ;;
+    *)
+      echo "Error: Unknown option $1" >&2
+      exit 1
+      ;;
+  esac
+done
 
 # Homebrewがインストールされているか確認
 if ! command -v brew &> /dev/null; then
@@ -18,7 +38,12 @@ fi
 # Brewfile が存在する場合は bundle install を実行
 if [ -f "$(dirname "$0")/Brewfile" ]; then
     echo "Brewfileからパッケージをインストールします..."
-    brew bundle --file="$(dirname "$0")/Brewfile"
+    if [ -n "$BREW_BUNDLE_OPTIONS" ]; then
+        echo "Skipping package upgrades (--no-upgrade specified)."
+        brew bundle --file="$(dirname "$0")/Brewfile" $BREW_BUNDLE_OPTIONS
+    else
+        brew bundle --file="$(dirname "$0")/Brewfile"
+    fi
 else
     echo "Brewfileが見つかりません。"
 fi

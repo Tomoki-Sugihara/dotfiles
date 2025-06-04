@@ -20,6 +20,7 @@ brew "mas"                    # App Store アプリケーション用のCLIツ�
 brew "xcodes"                # Xcodeのバージョン管理ツール
 brew "just"                 # シェルスクリプトのラッパー
 brew "pandoc"               # ドキュメント変換ツール
+brew "uv"                   # Pythonのパッケージマネージャー
 
 # Caskアプリケーション
 cask "visual-studio-code"   # コードエディタ
