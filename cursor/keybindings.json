@@ -104,22 +104,38 @@
     "command": "composerMode.agent"
   },
   // CursorTabのキー
+  // {
+  //   "key": "ctrl+m",
+  //   "command": "editor.action.acceptCursorTabSuggestion",
+  //   "when": "cpp.shouldAcceptTab"
+  // },
+  // {
+  //   "key": "tab",
+  //   "command": "-editor.action.acceptCursorTabSuggestion",
+  //   "when": "cpp.shouldAcceptTab"
+  // },
   {
-    "key": "ctrl+m",
-    "command": "editor.action.acceptCursorTabSuggestion",
-    "when": "cpp.shouldAcceptTab"
+      "key": "shift+enter",
+      "command": "workbench.action.terminal.sendSequence",
+      "args": {
+          "text": "\\\r\n"
+      },
+      "when": "terminalFocus"
+  },
+  // 相対パスコピー
+  {
+    "key": "shift+cmd+c",
+    "command": "copyRelativeFilePath",
+    "when": "!editorFocus"
   },
   {
-    "key": "tab",
-    "command": "-editor.action.acceptCursorTabSuggestion",
-    "when": "cpp.shouldAcceptTab"
-},
-{
-    "key": "shift+enter",
-    "command": "workbench.action.terminal.sendSequence",
-    "args": {
-        "text": "\\\r\n"
-    },
-    "when": "terminalFocus"
-}
+    "key": "shift+alt+cmd+c",
+    "command": "-copyRelativeFilePath",
+    "when": "!editorFocus"
+  },
+  // project manager list
+  {
+    "key": "alt+cmd+p",
+    "command": "projectManager.listProjectsNewWindow"
+  }
 ]

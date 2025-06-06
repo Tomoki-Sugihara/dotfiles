@@ -34,3 +34,24 @@ obs() {
 
 # 不明
 . "$HOME/.local/bin/env"
+
+cds() {
+  if [ -z "$1" ]; then
+    echo "Usage: cds <project_name>"
+    return 1
+  fi
+
+  mkdir "$1"
+  cd "$1"
+  
+  if [ "$2" = "-r" ]; then
+    cursor -r .
+  else
+    cursor .
+  fi
+}
+
+clonecs() {
+  git clone $1
+  cursor -r .
+}

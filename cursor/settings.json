@@ -368,12 +368,12 @@
   "deno.path": "/Users/sugiharatomoki/.local/share/mise/installs/deno/2.2.4/bin/deno",
   "terminal.integrated.suggest.enabled": true, // https://x.com/code/status/1905380606864662913?s=46&t=7P2Kl8l7dkJkVLb3DKtXLg
   "github.copilot.chat.localeOverride": "ja",
-  "github.copilot.chat.commitMessageGeneration.instructions": [
-    {
-      "file": "/Users/sugiharatomoki/dotfiles/cursor/.copilot-commit-message-instructions.md"
-      // "file": ".copilot-commit-message-instructions.md"
-    }
-  ],
+  // "github.copilot.chat.commitMessageGeneration.instructions": [
+  //   {
+  //     "file": "/Users/sugiharatomoki/dotfiles/cursor/.copilot-commit-message-instructions.md"
+  //     // "file": ".copilot-commit-message-instructions.md"
+  //   }
+  // ],
   "chat.agent.enabled": true,
   "github.copilot.chat.agent.thinkingTool": true,
   "github.copilot.chat.codesearch.enabled": true,
@@ -382,5 +382,6 @@
   "cursor.composer.shouldAllowCustomModes": true,
   "cursor.composer.shouldChimeAfterChatFinishes": true,
   "update.releaseTrack": "prerelease",
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
