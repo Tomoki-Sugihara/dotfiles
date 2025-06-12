@@ -383,5 +383,17 @@
   "cursor.composer.shouldChimeAfterChatFinishes": true,
   "update.releaseTrack": "prerelease",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // ── 検索結果ビュー ───────────────────────
+  // 既定のレイアウトをツリー表示にする
+  "search.defaultViewMode": "tree",
+
+  // ── ソース管理 (SCM) ビュー ────────────────
+  // 既定のレイアウトをツリー表示にする
+  "scm.defaultViewMode": "tree",
+
+  // ── エディタタブのレイアウト補助 ───────────
+  // ピン留めタブを小さく表示（Git Graph を邪魔にならないサイズで固定）
+  "workbench.editor.pinnedTabSizing": "compact"
 }
