@@ -32,6 +32,15 @@ obs() {
   deno run --allow-read --allow-write --allow-run --allow-env ~/dotfiles/obsidian/cli.ts "$@"
 }
 
+clauded () {
+  # 第一引数があれば -p に含める
+  if [ -n "$1" ]; then
+    claude --dangerously-skip-permissions -p "$1"
+  else
+    claude --dangerously-skip-permissions
+  fi
+}
+
 # 不明
 . "$HOME/.local/bin/env"
 
