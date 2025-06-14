@@ -334,7 +334,8 @@
   "security.promptForLocalFileProtocolHandling": false,
   "cursor.cpp.disabledLanguages": [
     "plaintext",
-    "scminput"
+    "scminput",
+    "markdown"
   ],
   "database-client.autoSync": true,
   "workbench.colorTheme": "Default Dark Modern",
