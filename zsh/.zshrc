@@ -60,6 +60,10 @@ cds() {
   fi
 }
 
+repo-setup() {
+  ~/dotfiles/cli/repo-setup/repo-setup.sh "$1" "$2"
+}
+
 clonecs() {
   git clone $1
   cursor -r .
