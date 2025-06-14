@@ -21,6 +21,7 @@ brew "xcodes"                # Xcodeのバージョン管理ツール
 brew "just"                 # シェルスクリプトのラッパー
 brew "pandoc"               # ドキュメント変換ツール
 brew "uv"                   # Pythonのパッケージマネージャー
+brew "claude-squad"         # ターミナル
 
 # Caskアプリケーション
 cask "visual-studio-code"   # コードエディタ
@@ -47,6 +48,8 @@ cask "superwhisper"         # AIコミュニケーションツール
 cask "google-cloud-sdk"     # Google Cloud SDK
 cask "ngrok"                # ローカル開発環境を公開
 cask "google-japanese-ime"  # 日本語入力ツール
+cask "github"               # GitHubクライアント
+cask "gitify"               # GitHubクライアント
 
 # App Storeアプリケーション
 mas "Paste", id: 967805235
