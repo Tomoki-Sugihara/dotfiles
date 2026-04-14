@@ -68,3 +68,22 @@ clonecs() {
   git clone $1
   cursor -r .
 }
+
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="$HOME/.turso:$PATH"
+. "$HOME/.turso/env"
+
+# bun completions
+[ -s "/Users/sugiharatomoki/.bun/_bun" ] && source "/Users/sugiharatomoki/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+export PATH="$HOME/.local/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/sugiharatomoki/.antigravity/antigravity/bin:$PATH"
+
+# OpenClaw Completion
+source "/Users/sugiharatomoki/.openclaw/completions/openclaw.zsh"

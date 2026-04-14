@@ -60,8 +60,8 @@ defaults write -g com.apple.trackpad.scaling 2
 
 # スクリーンショットの保存先を設定
 # 注意: 現在は未設定ですが、必要に応じてコメントを解除してください
-# defaults write com.apple.screencapture location ~/Pictures/Screenshots
-# mkdir -p ~/Pictures/Screenshots
+defaults write com.apple.screencapture location ~/Pictures/Screenshots
+mkdir -p ~/Pictures/Screenshots
 
 # スクリーンショットの影を無効化
 # 注意: 現在は未設定ですが、必要に応じてコメントを解除してください

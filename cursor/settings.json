@@ -1,7 +1,7 @@
 {
   "files.autoSave": "off",
   "files.associations": {
-    "*.vue": "vue"
+    "*.vue": "vue",
   },
   "emmet.triggerExpansionOnTab": true,
   "editor.formatOnPaste": true,
@@ -12,93 +12,90 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "vue-html": "html"
+    "vue-html": "html",
   },
   "emmet.syntaxProfiles": {
-    "javascript": "jsx"
+    "javascript": "jsx",
   },
   "eslint.packageManager": "yarn",
   "[scss]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "HookyQR.beautify",
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features",
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "never"
+    "source.organizeImports": "never",
   },
   "editor.formatOnType": false,
   "eslint.options": {
-    "extensions": [
-      ".js",
-      ".vue"
-    ]
+    "extensions": [".js", ".vue"],
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "todohighlight.keywordsPattern": "TODO:|FIXME:|TODO",
   "peacock.favoriteColors": [
     {
       "name": "Angular Red",
-      "value": "#b52e31"
+      "value": "#b52e31",
     },
     {
       "name": "Auth0 Orange",
-      "value": "#eb5424"
+      "value": "#eb5424",
     },
     {
       "name": "Azure Blue",
-      "value": "#007fff"
+      "value": "#007fff",
     },
     {
       "name": "C# Purple",
-      "value": "#68217A"
+      "value": "#68217A",
     },
     {
       "name": "Gatsby Purple",
-      "value": "#639"
+      "value": "#639",
     },
     {
       "name": "Go Cyan",
-      "value": "#5dc9e2"
+      "value": "#5dc9e2",
     },
     {
       "name": "Java Blue-Gray",
-      "value": "#557c9b"
+      "value": "#557c9b",
     },
     {
       "name": "JavaScript Yellow",
-      "value": "#f9e64f"
+      "value": "#f9e64f",
     },
     {
       "name": "Mandalorian Blue",
-      "value": "#1857a4"
+      "value": "#1857a4",
     },
     {
       "name": "Node Green",
-      "value": "#215732"
+      "value": "#215732",
     },
     {
       "name": "React Blue",
-      "value": "#00b3e6"
+      "value": "#00b3e6",
     },
     {
       "name": "Something Different",
-      "value": "#832561"
+      "value": "#832561",
     },
     {
       "name": "Vue Green",
-      "value": "#42b883"
-    }
+      "value": "#42b883",
+    },
   ],
   "editor.renderControlCharacters": false,
   "stylelint.autoFixOnSave": true,
@@ -239,11 +236,11 @@
     "wrapin",
     "xerrors",
     "youcanbook",
-    "Zenkaku"
+    "Zenkaku",
   ],
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook",
-    "*.xlsx": "default"
+    "*.xlsx": "default",
   },
   "git.confirmSync": false,
   "liveServer.settings.donotVerifyTags": true,
@@ -256,7 +253,7 @@
   "editor.wordWrap": "off",
   "notebook.cellToolbarLocation": {
     "default": "right",
-    "jupyter-notebook": "left"
+    "jupyter-notebook": "left",
   },
   "editor.tabSize": 2,
   "editor.acceptSuggestionOnEnter": "off",
@@ -265,8 +262,8 @@
       "server": "{{put-server-name-here}}",
       "database": "{{put-database-name-here}}",
       "user": "{{put-username-here}}",
-      "password": "{{put-password-here}}"
-    }
+      "password": "{{put-password-here}}",
+    },
   ],
   "vsnotes.defaultNotePath": "/Users/tomoki.sugihara/vsnote",
   "vsnotes.defaultNoteTitle": "{title}.{ext}",
@@ -276,7 +273,7 @@
     "plaintext": false,
     "markdown": false,
     "scminput": false,
-    "yaml": false
+    "yaml": false,
   },
   "git.suggestSmartCommit": false,
   "editor.fontSize": 11.5,
@@ -286,18 +283,16 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit"
+      "source.fixAll": "explicit",
     },
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off",
     "editor.defaultFormatter": "Dart-Code.dart-code",
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
   },
   "prettier.singleQuote": true,
   "githubPullRequests.pullBranch": "never",
@@ -307,18 +302,14 @@
   "[go]": {
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "golang.go"
+    "editor.defaultFormatter": "golang.go",
   },
   "go.lintTool": "golangci-lint",
   "chatgpt.emailAddress": "sugihara.10969@gmail.com",
   "errorLens.enabled": false,
-  "go.lintFlags": [
-    "--fast",
-    "--enable=staticcheck",
-    "--enable=wrapcheck"
-  ],
+  "go.lintFlags": ["--fast", "--enable=staticcheck", "--enable=wrapcheck"],
   "[python]": {
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "terminal.integrated.scrollback": 10000,
   "workbench.editor.empty.hint": "hidden",
@@ -326,17 +317,13 @@
   "workbench.editor.tabActionCloseVisibility": false,
   "github.copilot.editor.enableAutoCompletions": true,
   "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
+    "editor.defaultFormatter": "Prisma.prisma",
   },
   "openapi.securityAuditToken": "CiDtQLHVu8fWZYEmyLFzDzws/pCgEnVe1a5zPhXEoVGkCxIYwFGcWPH5P8i7xJcZZBj9/pSU3d/9LGk+Gnccq6a4KBihy3OI7s3vo8ZAnD4HDdHeMmYAWedVpXROQICWGMgbddTTBNuQstJx3JZ7bmwd/DgcwMU/WkWvmYZtE3hgJZw09UZXPfVbIPgxsbGyXvdPOW00yxlgyi4TJR8VLohHiQb3whEkaxo3iuk9Le8GyP0BmA==",
   "openapi.platformAuthType": "anond-token",
   "diffEditor.ignoreTrimWhitespace": true,
   "security.promptForLocalFileProtocolHandling": false,
-  "cursor.cpp.disabledLanguages": [
-    "plaintext",
-    "scminput",
-    "markdown"
-  ],
+  "cursor.cpp.disabledLanguages": ["plaintext", "scminput", "markdown"],
   "database-client.autoSync": true,
   "workbench.colorTheme": "Default Dark Modern",
   "workbench.activityBar.orientation": "vertical",
@@ -345,12 +332,12 @@
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file"
+    "editor.formatOnSaveMode": "file",
   },
   "[terraform-vars]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file"
+    "editor.formatOnSaveMode": "file",
   },
   "diffEditor.renderSideBySide": true,
   "locale": "ja",
@@ -361,7 +348,7 @@
     "tsc",
     "git log",
     "git diff",
-    "git show"
+    "git show",
   ],
   "workbench.layoutControl.enabled": false,
   "windsurf.autoExecutionPolicy": "off",
@@ -396,5 +383,26 @@
 
   // ── エディタタブのレイアウト補助 ───────────
   // ピン留めタブを小さく表示（Git Graph を邪魔にならないサイズで固定）
-  "workbench.editor.pinnedTabSizing": "compact"
+  "workbench.editor.pinnedTabSizing": "compact",
+  "cursor.inlineDiff.mode": "unified",
+  "gitlens.mode.active": "review",
+  "claudeCode.preferredLocation": "panel",
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "packages/mobile/app/_layout.tsx",
+    "apps/mobile/src/lib/gemini.ts",
+    "packages/mobile/app/(tabs)/home.tsx",
+    "packages/mobile/app/(tabs)/_layout.tsx",
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "diffEditor.experimental.showMoves": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.statusBar.visible": false,
 }
